@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph role="rule" edgeids="false" edgemode="directed" id="vitoria">
-        <attr name="priority">
-            <string>2</string>
-        </attr>
+    <graph role="rule" edgeids="false" edgemode="directed" id="V">
         <attr name="$version">
             <string>curly</string>
         </attr>
