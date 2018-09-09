@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph role="graph" edgeids="false" edgemode="directed" id="startPC">
+    <graph role="graph" edgeids="false" edgemode="directed" id="eatTest">
         <attr name="$version">
             <string>curly</string>
         </attr>
@@ -317,7 +317,7 @@
                 <string>A</string>
             </attr>
         </edge>
-        <edge from="n27" to="n14">
+        <edge from="n27" to="n12">
             <attr name="label">
                 <string>e</string>
             </attr>

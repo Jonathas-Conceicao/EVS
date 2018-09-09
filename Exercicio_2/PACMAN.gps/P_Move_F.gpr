@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph role="rule" edgeids="false" edgemode="directed" id="P_Move_F">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n0">
+            <attr name="layout">
+                <string>156 171 19 19</string>
+            </attr>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>181 90 19 19</string>
+            </attr>
+        </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>110 8 8 17</string>
+            </attr>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>169 8 10 17</string>
+            </attr>
+        </node>
+        <node id="n4">
+            <attr name="layout">
+                <string>230 8 9 17</string>
+            </attr>
+        </node>
+        <node id="n5">
+            <attr name="layout">
+                <string>208 261 9 17</string>
+            </attr>
+        </node>
+        <edge from="n1" to="n0">
+            <attr name="label">
+                <string>n</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>P</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n0">
+            <attr name="label">
+                <string>new: e</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 120 129 141 99 122 261 11</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n1">
+            <attr name="label">
+                <string>del: e</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n3">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n3">
+            <attr name="label">
+                <string>G</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n1">
+            <attr name="label">
+                <string>not: e</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n4">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n4">
+            <attr name="label">
+                <string>A</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n1">
+            <attr name="label">
+                <string>e</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n5">
+            <attr name="label">
+                <string>R</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>
