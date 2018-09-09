@@ -154,12 +154,12 @@
                 <string>491 465 9 17</string>
             </attr>
         </node>
-        <edge from="n0" to="n21">
+        <edge from="n0" to="n1">
             <attr name="label">
                 <string>n</string>
             </attr>
         </edge>
-        <edge from="n0" to="n1">
+        <edge from="n0" to="n21">
             <attr name="label">
                 <string>n</string>
             </attr>
@@ -174,12 +174,12 @@
                 <string>n</string>
             </attr>
         </edge>
-        <edge from="n3" to="n4">
+        <edge from="n3" to="n6">
             <attr name="label">
                 <string>n</string>
             </attr>
         </edge>
-        <edge from="n3" to="n6">
+        <edge from="n3" to="n4">
             <attr name="label">
                 <string>n</string>
             </attr>
