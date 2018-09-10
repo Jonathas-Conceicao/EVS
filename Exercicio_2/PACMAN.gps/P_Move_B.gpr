@@ -16,7 +16,7 @@
         </node>
         <node id="n3">
             <attr name="layout">
-                <string>134 86 8 17</string>
+                <string>130 77 16 34</string>
             </attr>
         </node>
         <node id="n1">
@@ -31,7 +31,12 @@
         </node>
         <node id="n5">
             <attr name="layout">
-                <string>192 322 39 51</string>
+                <string>192 322 38 51</string>
+            </attr>
+        </node>
+        <node id="n6">
+            <attr name="layout">
+                <string>249 88 19 19</string>
             </attr>
         </node>
         <edge from="n0" to="n2">
@@ -41,17 +46,12 @@
         </edge>
         <edge from="n3" to="n3">
             <attr name="label">
-                <string>del:flag:T</string>
+                <string>P</string>
             </attr>
         </edge>
         <edge from="n3" to="n3">
             <attr name="label">
-                <string>P</string>
-            </attr>
-        </edge>
-        <edge from="n3" to="n0">
-            <attr name="label">
-                <string>new: e</string>
+                <string>del:T</string>
             </attr>
         </edge>
         <edge from="n3" to="n2">
@@ -60,6 +60,11 @@
             </attr>
             <attr name="layout">
                 <string>500 0 138 94 161 178 182 260 11</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n0">
+            <attr name="label">
+                <string>new: e</string>
             </attr>
         </edge>
         <edge from="n1" to="n1">
@@ -94,17 +99,22 @@
         </edge>
         <edge from="n5" to="n5">
             <attr name="label">
-                <string>del:flag:P_T</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n5">
-            <attr name="label">
-                <string>new:flag:A_T</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n5">
-            <attr name="label">
                 <string>R</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n5">
+            <attr name="label">
+                <string>del:P_T</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n5">
+            <attr name="label">
+                <string>new:A_T</string>
+            </attr>
+        </edge>
+        <edge from="n6" to="n6">
+            <attr name="label">
+                <string>A</string>
             </attr>
         </edge>
     </graph>

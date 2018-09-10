@@ -16,22 +16,22 @@
         </node>
         <node id="n2">
             <attr name="layout">
-                <string>187 235 19 19</string>
+                <string>186 228 22 34</string>
             </attr>
         </node>
         <edge from="n0" to="n0">
             <attr name="label">
-                <string>del:flag:G_T</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n0">
-            <attr name="label">
-                <string>new:flag:P_T</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n0">
-            <attr name="label">
                 <string>R</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>del:G_T</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>new:P_T</string>
             </attr>
         </edge>
         <edge from="n1" to="n1">
@@ -41,22 +41,22 @@
         </edge>
         <edge from="n1" to="n1">
             <attr name="label">
-                <string>flag:T</string>
+                <string>G</string>
             </attr>
         </edge>
         <edge from="n1" to="n1">
             <attr name="label">
-                <string>G</string>
-            </attr>
-        </edge>
-        <edge from="n2" to="n2">
-            <attr name="label">
-                <string>new:flag:T</string>
+                <string>T</string>
             </attr>
         </edge>
         <edge from="n2" to="n2">
             <attr name="label">
                 <string>P</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>new:T</string>
             </attr>
         </edge>
     </graph>

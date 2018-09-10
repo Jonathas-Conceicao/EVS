@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph role="graph" edgeids="false" edgemode="directed" id="startPC">
+    <graph role="graph" edgeids="false" edgemode="directed" id="test">
         <attr name="$version">
             <string>curly</string>
         </attr>
@@ -129,16 +129,6 @@
                 <string>330 628 17 34</string>
             </attr>
         </node>
-        <node id="n25">
-            <attr name="layout">
-                <string>691 282 9 17</string>
-            </attr>
-        </node>
-        <node id="n26">
-            <attr name="layout">
-                <string>342 306 9 17</string>
-            </attr>
-        </node>
         <node id="n27">
             <attr name="layout">
                 <string>741 458 9 17</string>
@@ -154,12 +144,12 @@
                 <string>483 456 22 34</string>
             </attr>
         </node>
-        <edge from="n0" to="n21">
+        <edge from="n0" to="n1">
             <attr name="label">
                 <string>n</string>
             </attr>
         </edge>
-        <edge from="n0" to="n1">
+        <edge from="n0" to="n21">
             <attr name="label">
                 <string>n</string>
             </attr>
@@ -297,27 +287,7 @@
                 <string>NT</string>
             </attr>
         </edge>
-        <edge from="n24" to="n9">
-            <attr name="label">
-                <string>e</string>
-            </attr>
-        </edge>
-        <edge from="n25" to="n25">
-            <attr name="label">
-                <string>A</string>
-            </attr>
-        </edge>
-        <edge from="n25" to="n17">
-            <attr name="label">
-                <string>e</string>
-            </attr>
-        </edge>
-        <edge from="n26" to="n26">
-            <attr name="label">
-                <string>A</string>
-            </attr>
-        </edge>
-        <edge from="n26" to="n8">
+        <edge from="n24" to="n11">
             <attr name="label">
                 <string>e</string>
             </attr>
@@ -327,7 +297,7 @@
                 <string>A</string>
             </attr>
         </edge>
-        <edge from="n27" to="n14">
+        <edge from="n27" to="n12">
             <attr name="label">
                 <string>e</string>
             </attr>

@@ -6,17 +6,32 @@
         </attr>
         <node id="n0">
             <attr name="layout">
-                <string>200 330 24 34</string>
+                <string>200 330 23 34</string>
             </attr>
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>114 228 28 51</string>
+                <string>114 228 27 51</string>
+            </attr>
+        </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>297 194 8 17</string>
+            </attr>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>336 277 19 19</string>
+            </attr>
+        </node>
+        <node id="n4">
+            <attr name="layout">
+                <string>379 192 10 17</string>
             </attr>
         </node>
         <edge from="n0" to="n0">
             <attr name="label">
-                <string>flag:A_T</string>
+                <string>A_T</string>
             </attr>
         </edge>
         <edge from="n0" to="n0">
@@ -26,17 +41,37 @@
         </edge>
         <edge from="n1" to="n1">
             <attr name="label">
-                <string>cnew:flag:T</string>
+                <string>G</string>
             </attr>
         </edge>
         <edge from="n1" to="n1">
             <attr name="label">
-                <string>del:flag:NT</string>
+                <string>cnew:T</string>
             </attr>
         </edge>
         <edge from="n1" to="n1">
+            <attr name="label">
+                <string>del:NT</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>P</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n3">
+            <attr name="label">
+                <string>not: e</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n4">
             <attr name="label">
                 <string>G</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n3">
+            <attr name="label">
+                <string>not:e</string>
             </attr>
         </edge>
     </graph>

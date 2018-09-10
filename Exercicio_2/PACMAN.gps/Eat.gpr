@@ -6,32 +6,32 @@
         </attr>
         <node id="n0">
             <attr name="layout">
-                <string>112 173 19 19</string>
+                <string>133 107 19 19</string>
             </attr>
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>140 91 8 17</string>
+                <string>110 8 8 34</string>
             </attr>
         </node>
         <node id="n2">
             <attr name="layout">
-                <string>117 8 9 17</string>
+                <string>167 17 9 17</string>
             </attr>
         </node>
         <node id="n3">
             <attr name="layout">
-                <string>208 261 8 17</string>
+                <string>201 252 22 34</string>
             </attr>
         </node>
         <edge from="n1" to="n1">
             <attr name="label">
-                <string>flag:T</string>
+                <string>P</string>
             </attr>
         </edge>
         <edge from="n1" to="n1">
             <attr name="label">
-                <string>P</string>
+                <string>T</string>
             </attr>
         </edge>
         <edge from="n1" to="n0">
@@ -41,20 +41,22 @@
         </edge>
         <edge from="n2" to="n2">
             <attr name="label">
-                <string>A</string>
+                <string>del:</string>
             </attr>
         </edge>
-        <edge from="n2" to="n1">
+        <edge from="n2" to="n2">
             <attr name="label">
-                <string>new: e</string>
+                <string>A</string>
             </attr>
         </edge>
         <edge from="n2" to="n0">
             <attr name="label">
-                <string>del: e</string>
+                <string>e</string>
             </attr>
-            <attr name="layout">
-                <string>500 0 121 16 100 100 121 182 11</string>
+        </edge>
+        <edge from="n3" to="n3">
+            <attr name="label">
+                <string>P_T</string>
             </attr>
         </edge>
         <edge from="n3" to="n3">

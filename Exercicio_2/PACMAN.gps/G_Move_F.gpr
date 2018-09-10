@@ -16,7 +16,7 @@
         </node>
         <node id="n2">
             <attr name="layout">
-                <string>108 76 17 34</string>
+                <string>100 67 32 51</string>
             </attr>
         </node>
         <node id="n3">
@@ -36,17 +36,17 @@
         </edge>
         <edge from="n2" to="n2">
             <attr name="label">
-                <string>del:flag:T</string>
-            </attr>
-        </edge>
-        <edge from="n2" to="n2">
-            <attr name="label">
-                <string>new:flag:NT</string>
-            </attr>
-        </edge>
-        <edge from="n2" to="n2">
-            <attr name="label">
                 <string>G</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>del:T</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>new:NT</string>
             </attr>
         </edge>
         <edge from="n2" to="n0">
@@ -79,7 +79,7 @@
         </edge>
         <edge from="n4" to="n4">
             <attr name="label">
-                <string>flag:G_T</string>
+                <string>G_T</string>
             </attr>
         </edge>
         <edge from="n4" to="n4">
