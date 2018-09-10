@@ -6,37 +6,37 @@
         </attr>
         <node id="n0">
             <attr name="layout">
-                <string>133 170 19 19</string>
+                <string>136 247 19 19</string>
             </attr>
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>158 89 19 19</string>
+                <string>161 166 19 19</string>
             </attr>
         </node>
         <node id="n2">
             <attr name="layout">
-                <string>109 8 10 17</string>
+                <string>108 76 17 34</string>
             </attr>
         </node>
         <node id="n3">
             <attr name="layout">
-                <string>170 8 8 17</string>
+                <string>173 85 8 17</string>
             </attr>
         </node>
         <node id="n4">
             <attr name="layout">
-                <string>208 261 9 17</string>
-            </attr>
-        </node>
-        <node id="n5">
-            <attr name="layout">
-                <string>102 261 25 17</string>
+                <string>210 343 8 17</string>
             </attr>
         </node>
         <edge from="n1" to="n0">
             <attr name="label">
                 <string>n</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>del:flag:T</string>
             </attr>
         </edge>
         <edge from="n2" to="n2">
@@ -54,7 +54,7 @@
                 <string>new: e</string>
             </attr>
             <attr name="layout">
-                <string>500 0 114 16 118 98 142 179 11</string>
+                <string>500 0 117 93 121 175 145 256 11</string>
             </attr>
         </edge>
         <edge from="n3" to="n3">
@@ -77,14 +77,12 @@
                 <string>R</string>
             </attr>
         </edge>
-        <edge from="n5" to="n5">
-            <attr name="label">
-                <string>del:</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n5">
+        <edge from="n4" to="n4">
             <attr name="label">
                 <string>G_T</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 214 351 276 351 214 351 11</string>
             </attr>
         </edge>
     </graph>

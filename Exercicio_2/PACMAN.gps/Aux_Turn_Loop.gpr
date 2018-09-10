@@ -1,37 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph role="rule" edgeids="false" edgemode="directed" id="P_Turn">
+    <graph role="rule" edgeids="false" edgemode="directed" id="Aux_Turn_Loop">
         <attr name="$version">
             <string>curly</string>
         </attr>
         <node id="n0">
             <attr name="layout">
-                <string>108 67 25 17</string>
+                <string>208 339 8 17</string>
             </attr>
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>161 94 23 17</string>
+                <string>114 237 28 34</string>
             </attr>
         </node>
         <edge from="n0" to="n0">
             <attr name="label">
-                <string>not:</string>
+                <string>R</string>
             </attr>
         </edge>
         <edge from="n0" to="n0">
             <attr name="label">
-                <string>G_T</string>
+                <string>A_T</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 212 347 275 347 212 347 11</string>
             </attr>
         </edge>
         <edge from="n1" to="n1">
             <attr name="label">
-                <string>new:</string>
+                <string>cnew:flag:T</string>
             </attr>
         </edge>
         <edge from="n1" to="n1">
             <attr name="label">
-                <string>P_T</string>
+                <string>del:flag:NT</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n1">
+            <attr name="label">
+                <string>G</string>
             </attr>
         </edge>
     </graph>

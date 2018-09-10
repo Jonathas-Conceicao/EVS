@@ -126,7 +126,7 @@
         </node>
         <node id="n24">
             <attr name="layout">
-                <string>334 637 10 17</string>
+                <string>330 628 18 34</string>
             </attr>
         </node>
         <node id="n25">
@@ -151,7 +151,7 @@
         </node>
         <node id="n29">
             <attr name="layout">
-                <string>491 465 9 17</string>
+                <string>491 465 8 17</string>
             </attr>
         </node>
         <edge from="n0" to="n1">
@@ -174,12 +174,12 @@
                 <string>n</string>
             </attr>
         </edge>
-        <edge from="n3" to="n6">
+        <edge from="n3" to="n4">
             <attr name="label">
                 <string>n</string>
             </attr>
         </edge>
-        <edge from="n3" to="n4">
+        <edge from="n3" to="n6">
             <attr name="label">
                 <string>n</string>
             </attr>
@@ -274,12 +274,22 @@
         </edge>
         <edge from="n23" to="n23">
             <attr name="label">
+                <string>flag:NT</string>
+            </attr>
+        </edge>
+        <edge from="n23" to="n23">
+            <attr name="label">
                 <string>G</string>
             </attr>
         </edge>
         <edge from="n23" to="n0">
             <attr name="label">
                 <string>e</string>
+            </attr>
+        </edge>
+        <edge from="n24" to="n24">
+            <attr name="label">
+                <string>flag:NT</string>
             </attr>
         </edge>
         <edge from="n24" to="n24">
@@ -335,6 +345,14 @@
         <edge from="n29" to="n29">
             <attr name="label">
                 <string>R</string>
+            </attr>
+        </edge>
+        <edge from="n29" to="n29">
+            <attr name="label">
+                <string>S_T</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 495 473 495 432 495 432 11</string>
             </attr>
         </edge>
     </graph>
