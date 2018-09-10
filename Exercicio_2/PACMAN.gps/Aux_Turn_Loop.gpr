@@ -6,25 +6,22 @@
         </attr>
         <node id="n0">
             <attr name="layout">
-                <string>208 339 8 17</string>
+                <string>200 330 24 34</string>
             </attr>
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>114 237 28 34</string>
+                <string>114 228 28 51</string>
             </attr>
         </node>
         <edge from="n0" to="n0">
             <attr name="label">
-                <string>R</string>
+                <string>flag:A_T</string>
             </attr>
         </edge>
         <edge from="n0" to="n0">
             <attr name="label">
-                <string>A_T</string>
-            </attr>
-            <attr name="layout">
-                <string>500 0 212 347 275 347 212 347 11</string>
+                <string>R</string>
             </attr>
         </edge>
         <edge from="n1" to="n1">

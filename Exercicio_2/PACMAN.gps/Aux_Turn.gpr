@@ -6,7 +6,7 @@
         </attr>
         <node id="n0">
             <attr name="layout">
-                <string>208 339 8 17</string>
+                <string>192 322 40 51</string>
             </attr>
         </node>
         <node id="n1">
@@ -16,23 +16,17 @@
         </node>
         <edge from="n0" to="n0">
             <attr name="label">
+                <string>del:flag:A_T</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>new:flag:G_T</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n0">
+            <attr name="label">
                 <string>R</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n0">
-            <attr name="label">
-                <string>del: A_T</string>
-            </attr>
-            <attr name="layout">
-                <string>500 0 212 347 275 347 212 347 11</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n0">
-            <attr name="label">
-                <string>new: G_T</string>
-            </attr>
-            <attr name="layout">
-                <string>500 0 212 347 149 347 149 347 11</string>
             </attr>
         </edge>
         <edge from="n1" to="n1">

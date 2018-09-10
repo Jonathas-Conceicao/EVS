@@ -121,7 +121,7 @@
         </node>
         <node id="n23">
             <attr name="layout">
-                <string>107 244 10 17</string>
+                <string>103 235 18 34</string>
             </attr>
         </node>
         <node id="n24">
@@ -146,20 +146,20 @@
         </node>
         <node id="n28">
             <attr name="layout">
-                <string>640 639 8 17</string>
+                <string>640 630 8 34</string>
             </attr>
         </node>
         <node id="n29">
             <attr name="layout">
-                <string>491 465 8 17</string>
+                <string>483 456 23 34</string>
             </attr>
         </node>
-        <edge from="n0" to="n1">
+        <edge from="n0" to="n21">
             <attr name="label">
                 <string>n</string>
             </attr>
         </edge>
-        <edge from="n0" to="n21">
+        <edge from="n0" to="n1">
             <attr name="label">
                 <string>n</string>
             </attr>
@@ -334,6 +334,11 @@
         </edge>
         <edge from="n28" to="n28">
             <attr name="label">
+                <string>flag:T</string>
+            </attr>
+        </edge>
+        <edge from="n28" to="n28">
+            <attr name="label">
                 <string>P</string>
             </attr>
         </edge>
@@ -344,15 +349,12 @@
         </edge>
         <edge from="n29" to="n29">
             <attr name="label">
-                <string>R</string>
+                <string>flag:P_T</string>
             </attr>
         </edge>
         <edge from="n29" to="n29">
             <attr name="label">
-                <string>S_T</string>
-            </attr>
-            <attr name="layout">
-                <string>500 0 495 473 495 432 495 432 11</string>
+                <string>R</string>
             </attr>
         </edge>
     </graph>

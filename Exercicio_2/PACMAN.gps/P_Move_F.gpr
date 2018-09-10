@@ -31,7 +31,7 @@
         </node>
         <node id="n5">
             <attr name="layout">
-                <string>208 339 8 17</string>
+                <string>192 322 39 51</string>
             </attr>
         </node>
         <edge from="n1" to="n0">
@@ -41,12 +41,12 @@
         </edge>
         <edge from="n2" to="n2">
             <attr name="label">
-                <string>P</string>
+                <string>del:flag:T</string>
             </attr>
         </edge>
-        <edge from="n2" to="n1">
+        <edge from="n2" to="n2">
             <attr name="label">
-                <string>del: e</string>
+                <string>P</string>
             </attr>
         </edge>
         <edge from="n2" to="n0">
@@ -57,12 +57,9 @@
                 <string>500 0 119 110 146 193 170 274 11</string>
             </attr>
         </edge>
-        <edge from="n2" to="n2">
+        <edge from="n2" to="n1">
             <attr name="label">
-                <string>del: T</string>
-            </attr>
-            <attr name="layout">
-                <string>500 0 119 110 119 50 119 50 11</string>
+                <string>del: e</string>
             </attr>
         </edge>
         <edge from="n3" to="n3">
@@ -97,23 +94,17 @@
         </edge>
         <edge from="n5" to="n5">
             <attr name="label">
+                <string>del:flag:P_T</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n5">
+            <attr name="label">
+                <string>new:flag:A_T</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n5">
+            <attr name="label">
                 <string>R</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n5">
-            <attr name="label">
-                <string>del: P_T</string>
-            </attr>
-            <attr name="layout">
-                <string>500 0 212 347 275 347 212 347 11</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n5">
-            <attr name="label">
-                <string>new: A_T</string>
-            </attr>
-            <attr name="layout">
-                <string>500 0 212 347 132 346 212 347 11</string>
             </attr>
         </edge>
     </graph>

@@ -1,51 +1,62 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph role="rule" edgeids="false" edgemode="directed" id="Start_Turn">
+    <graph role="rule" edgeids="false" edgemode="directed" id="PAC_Turn">
         <attr name="$version">
             <string>curly</string>
         </attr>
         <node id="n0">
             <attr name="layout">
-                <string>199 210 8 17</string>
+                <string>193 322 38 51</string>
             </attr>
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>95 112 8 17</string>
+                <string>123 237 10 34</string>
             </attr>
         </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>187 235 19 19</string>
+            </attr>
+        </node>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>del:flag:G_T</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>new:flag:P_T</string>
+            </attr>
+        </edge>
         <edge from="n0" to="n0">
             <attr name="label">
                 <string>R</string>
             </attr>
         </edge>
-        <edge from="n0" to="n0">
+        <edge from="n1" to="n1">
             <attr name="label">
-                <string>del: S_T</string>
-            </attr>
-            <attr name="layout">
-                <string>500 0 203 219 274 219 274 219 11</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n0">
-            <attr name="label">
-                <string>new: P_T</string>
-            </attr>
-            <attr name="layout">
-                <string>500 0 203 219 129 218 203 219 11</string>
+                <string>not:</string>
             </attr>
         </edge>
         <edge from="n1" to="n1">
+            <attr name="label">
+                <string>flag:T</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n1">
+            <attr name="label">
+                <string>G</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>new:flag:T</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
             <attr name="label">
                 <string>P</string>
-            </attr>
-        </edge>
-        <edge from="n1" to="n1">
-            <attr name="label">
-                <string>new: T</string>
-            </attr>
-            <attr name="layout">
-                <string>500 0 99 121 99 65 99 65 11</string>
             </attr>
         </edge>
     </graph>
