@@ -6,42 +6,42 @@
         </attr>
         <node id="n0">
             <attr name="layout">
-                <string>127 201 53 17</string>
+                <string>123 201 61 17</string>
             </attr>
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>250 106 52 17</string>
+                <string>255 106 42 17</string>
             </attr>
         </node>
         <node id="n2">
             <attr name="layout">
-                <string>260 169 31 17</string>
+                <string>257 169 36 17</string>
             </attr>
         </node>
         <node id="n3">
             <attr name="layout">
-                <string>254 232 44 17</string>
+                <string>251 232 50 17</string>
             </attr>
         </node>
         <node id="n4">
             <attr name="layout">
-                <string>250 295 51 17</string>
+                <string>245 295 60 17</string>
             </attr>
         </node>
         <node id="n5">
             <attr name="layout">
-                <string>367 201 53 17</string>
+                <string>363 201 61 17</string>
             </attr>
         </node>
         <node id="n6">
             <attr name="layout">
-                <string>249 388 56 17</string>
+                <string>241 388 71 17</string>
             </attr>
         </node>
         <edge from="n0" to="n0">
             <attr name="label">
-                <string>Margem</string>
+                <string>type:Margem</string>
             </attr>
         </edge>
         <edge from="n0" to="n0">
@@ -49,12 +49,12 @@
                 <string>Esquerda</string>
             </attr>
             <attr name="layout">
-                <string>500 32 122 208 83 208 122 209 11</string>
+                <string>500 32 153 209 83 208 153 209 11</string>
             </attr>
         </edge>
         <edge from="n1" to="n1">
             <attr name="label">
-                <string>Homem</string>
+                <string>type:Barco</string>
             </attr>
         </edge>
         <edge from="n1" to="n0">
@@ -64,7 +64,7 @@
         </edge>
         <edge from="n2" to="n2">
             <attr name="label">
-                <string>Lobo</string>
+                <string>type:Lobo</string>
             </attr>
         </edge>
         <edge from="n2" to="n0">
@@ -74,7 +74,7 @@
         </edge>
         <edge from="n3" to="n3">
             <attr name="label">
-                <string>Ovelha</string>
+                <string>type:Ovelha</string>
             </attr>
         </edge>
         <edge from="n3" to="n0">
@@ -84,7 +84,7 @@
         </edge>
         <edge from="n4" to="n4">
             <attr name="label">
-                <string>Repolho</string>
+                <string>type:Repolho</string>
             </attr>
         </edge>
         <edge from="n4" to="n0">
@@ -94,7 +94,7 @@
         </edge>
         <edge from="n5" to="n5">
             <attr name="label">
-                <string>Margem</string>
+                <string>type:Margem</string>
             </attr>
         </edge>
         <edge from="n5" to="n5">
@@ -107,7 +107,7 @@
         </edge>
         <edge from="n6" to="n6">
             <attr name="label">
-                <string>Rodando</string>
+                <string>type:Rodando</string>
             </attr>
         </edge>
     </graph>

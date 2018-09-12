@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph role="rule" edgeids="false" edgemode="directed" id="Vitoria">
+    <graph role="rule" edgeids="false" edgemode="directed" id="type:Vitoria">
         <attr name="$version">
             <string>curly</string>
         </attr>
@@ -11,7 +11,7 @@
         </node>
         <edge from="n0" to="n0">
             <attr name="label">
-                <string>Vitoria</string>
+                <string>type:Vitoria</string>
             </attr>
         </edge>
     </graph>

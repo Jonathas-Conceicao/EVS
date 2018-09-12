@@ -1,110 +1,118 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph role="rule" edgeids="false" edgemode="directed" id="V">
+    <graph role="type" edgeids="false" edgemode="directed" id="type">
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n5">
-            <attr name="layout">
-                <string>110 8 52 17</string>
-            </attr>
-        </node>
-        <node id="n3">
-            <attr name="layout">
-                <string>211 8 31 17</string>
-            </attr>
-        </node>
-        <node id="n6">
-            <attr name="layout">
-                <string>293 8 44 17</string>
-            </attr>
-        </node>
         <node id="n0">
             <attr name="layout">
-                <string>386 8 51 17</string>
+                <string>235 91 61 17</string>
             </attr>
         </node>
-        <node id="n4">
+        <node id="n1">
             <attr name="layout">
-                <string>244 91 53 17</string>
+                <string>110 8 42 17</string>
             </attr>
         </node>
         <node id="n2">
             <attr name="layout">
-                <string>245 149 56 17</string>
+                <string>202 8 36 17</string>
+            </attr>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>288 8 50 17</string>
+            </attr>
+        </node>
+        <node id="n4">
+            <attr name="layout">
+                <string>388 8 60 17</string>
+            </attr>
+        </node>
+        <node id="n5">
+            <attr name="layout">
+                <string>232 217 66 17</string>
+            </attr>
+        </node>
+        <node id="n6">
+            <attr name="layout">
+                <string>326 212 56 17</string>
             </attr>
         </node>
         <node id="n7">
             <attr name="layout">
-                <string>252 189 41 17</string>
+                <string>160 203 19 19</string>
             </attr>
         </node>
-        <edge from="n5" to="n5">
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>type:Margem</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>Esquerda</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 266 99 341 99 266 99 11</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>Direita</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 266 99 188 101 266 99 11</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n1">
             <attr name="label">
                 <string>type:Barco</string>
             </attr>
         </edge>
-        <edge from="n5" to="n4">
+        <edge from="n1" to="n0">
             <attr name="label">
                 <string>1</string>
             </attr>
         </edge>
-        <edge from="n3" to="n4">
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>type:Lobo</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n0">
             <attr name="label">
                 <string>1</string>
             </attr>
         </edge>
         <edge from="n3" to="n3">
             <attr name="label">
-                <string>type:Lobo</string>
-            </attr>
-        </edge>
-        <edge from="n6" to="n4">
-            <attr name="label">
-                <string>1</string>
-            </attr>
-        </edge>
-        <edge from="n6" to="n6">
-            <attr name="label">
                 <string>type:Ovelha</string>
             </attr>
         </edge>
-        <edge from="n0" to="n4">
+        <edge from="n3" to="n0">
             <attr name="label">
                 <string>1</string>
             </attr>
         </edge>
-        <edge from="n0" to="n0">
+        <edge from="n4" to="n4">
             <attr name="label">
                 <string>type:Repolho</string>
             </attr>
         </edge>
-        <edge from="n4" to="n4">
+        <edge from="n4" to="n0">
             <attr name="label">
-                <string>type:Margem</string>
+                <string>1</string>
             </attr>
         </edge>
-        <edge from="n4" to="n4">
-            <attr name="label">
-                <string>Direita</string>
-            </attr>
-            <attr name="layout">
-                <string>500 0 271 99 342 99 271 99 11</string>
-            </attr>
-        </edge>
-        <edge from="n2" to="n2">
-            <attr name="label">
-                <string>del:</string>
-            </attr>
-        </edge>
-        <edge from="n2" to="n2">
+        <edge from="n5" to="n5">
             <attr name="label">
                 <string>type:Rodando</string>
             </attr>
         </edge>
-        <edge from="n7" to="n7">
+        <edge from="n6" to="n6">
             <attr name="label">
-                <string>new:</string>
+                <string>type:Derrota</string>
             </attr>
         </edge>
         <edge from="n7" to="n7">
