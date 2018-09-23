@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph role="type" edgeids="false" edgemode="directed" id="type">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n0">
+            <attr name="layout">
+                <string>395 371 47 29</string>
+            </attr>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>620 213 65 29</string>
+            </attr>
+        </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>849 361 55 29</string>
+            </attr>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>415 524 36 29</string>
+            </attr>
+        </node>
+        <node id="n5">
+            <attr name="layout">
+                <string>619 38 57 29</string>
+            </attr>
+        </node>
+        <node id="n4">
+            <attr name="layout">
+                <string>282 622 900 29</string>
+            </attr>
+        </node>
+        <node id="n6">
+            <attr name="layout">
+                <string>171 371 26 29</string>
+            </attr>
+        </node>
+        <node id="n7">
+            <attr name="layout">
+                <string>159 256 57 29</string>
+            </attr>
+        </node>
+        <node id="n9">
+            <attr name="layout">
+                <string>155 526 57 29</string>
+            </attr>
+        </node>
+        <node id="n8">
+            <attr name="layout">
+                <string>410 176 45 29</string>
+            </attr>
+        </node>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>type:ATM</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n2">
+            <attr name="label">
+                <string>cta</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n6">
+            <attr name="label">
+                <string>executando</string>
+            </attr>
+            <attr name="layout">
+                <string>445 0 418 385 184 386 11</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n8">
+            <attr name="label">
+                <string>ativo</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n1">
+            <attr name="label">
+                <string>type:cliente</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n2">
+            <attr name="label">
+                <string>titular</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n0">
+            <attr name="label">
+                <string>conectado</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n5">
+            <attr name="label">
+                <string>nome</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>type:conta</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n3">
+            <attr name="label">
+                <string>saldo</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n3">
+            <attr name="label">
+                <string>real:</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n5">
+            <attr name="label">
+                <string>string:</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n4">
+            <attr name="label">
+                <string>rem:</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n4">
+            <attr name="label">
+                <string>rem:Um vértice atributo pode aparecer diversas vezes, mas na verdade existe apenas um de cada tipo</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n3">
+            <attr name="label">
+                <string>rem:exemplo_disso</string>
+            </attr>
+        </edge>
+        <edge from="n6" to="n6">
+            <attr name="label">
+                <string>type:op</string>
+            </attr>
+        </edge>
+        <edge from="n6" to="n3">
+            <attr name="label">
+                <string>valor</string>
+            </attr>
+        </edge>
+        <edge from="n6" to="n7">
+            <attr name="label">
+                <string>tipo</string>
+            </attr>
+        </edge>
+        <edge from="n6" to="n9">
+            <attr name="label">
+                <string>msg</string>
+            </attr>
+        </edge>
+        <edge from="n7" to="n7">
+            <attr name="label">
+                <string>string:</string>
+            </attr>
+        </edge>
+        <edge from="n9" to="n9">
+            <attr name="label">
+                <string>string:</string>
+            </attr>
+        </edge>
+        <edge from="n8" to="n8">
+            <attr name="label">
+                <string>bool:</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>
