@@ -6,52 +6,62 @@
         </attr>
         <node id="n0">
             <attr name="layout">
-                <string>471 227 47 29</string>
+                <string>478 233 32 17</string>
             </attr>
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>122 257 55 29</string>
+                <string>129 263 41 17</string>
             </attr>
         </node>
         <node id="n2">
             <attr name="layout">
-                <string>119 433 60 29</string>
+                <string>127 439 44 17</string>
             </attr>
         </node>
         <node id="n4">
             <attr name="layout">
-                <string>118 71 65 29</string>
+                <string>126 77 49 17</string>
             </attr>
         </node>
         <node id="n7">
             <attr name="layout">
-                <string>322 66 70 29</string>
+                <string>332 72 49 17</string>
             </attr>
         </node>
         <node id="n8">
             <attr name="layout">
-                <string>705 268 55 29</string>
+                <string>712 274 41 17</string>
             </attr>
         </node>
         <node id="n3">
             <attr name="layout">
-                <string>702 444 60 29</string>
+                <string>710 450 44 17</string>
             </attr>
         </node>
         <node id="n5">
             <attr name="layout">
-                <string>701 82 65 29</string>
+                <string>709 88 49 17</string>
             </attr>
         </node>
         <node id="n6">
             <attr name="layout">
-                <string>905 77 69 29</string>
+                <string>915 83 48 17</string>
             </attr>
         </node>
         <node id="n9">
             <attr name="layout">
-                <string>483 392 19 19</string>
+                <string>479 393 26 17</string>
+            </attr>
+        </node>
+        <node id="n10">
+            <attr name="layout">
+                <string>339 120 44 17</string>
+            </attr>
+        </node>
+        <node id="n11">
+            <attr name="layout">
+                <string>922 138 44 17</string>
             </attr>
         </node>
         <edge from="n0" to="n0">
@@ -94,6 +104,11 @@
                 <string>titular</string>
             </attr>
         </edge>
+        <edge from="n4" to="n10">
+            <attr name="label">
+                <string>carteira</string>
+            </attr>
+        </edge>
         <edge from="n7" to="n7">
             <attr name="label">
                 <string>string:"Pedro"</string>
@@ -129,6 +144,11 @@
                 <string>titular</string>
             </attr>
         </edge>
+        <edge from="n5" to="n11">
+            <attr name="label">
+                <string>carteira</string>
+            </attr>
+        </edge>
         <edge from="n6" to="n6">
             <attr name="label">
                 <string>string:"Maria"</string>
@@ -137,6 +157,16 @@
         <edge from="n9" to="n9">
             <attr name="label">
                 <string>bool:true</string>
+            </attr>
+        </edge>
+        <edge from="n10" to="n10">
+            <attr name="label">
+                <string>real:100.00</string>
+            </attr>
+        </edge>
+        <edge from="n11" to="n11">
+            <attr name="label">
+                <string>real:100.00</string>
             </attr>
         </edge>
     </graph>

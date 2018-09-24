@@ -6,52 +6,57 @@
         </attr>
         <node id="n0">
             <attr name="layout">
-                <string>395 371 47 29</string>
+                <string>402 377 32 17</string>
             </attr>
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>620 213 65 29</string>
+                <string>628 219 49 17</string>
             </attr>
         </node>
         <node id="n2">
             <attr name="layout">
-                <string>849 361 55 29</string>
+                <string>856 367 41 17</string>
             </attr>
         </node>
         <node id="n3">
             <attr name="layout">
-                <string>415 524 36 29</string>
+                <string>419 530 28 17</string>
             </attr>
         </node>
         <node id="n5">
             <attr name="layout">
-                <string>619 38 57 29</string>
+                <string>626 44 42 17</string>
             </attr>
         </node>
         <node id="n4">
             <attr name="layout">
-                <string>282 622 900 29</string>
+                <string>411 628 642 17</string>
             </attr>
         </node>
         <node id="n6">
             <attr name="layout">
-                <string>171 371 26 29</string>
+                <string>175 377 18 17</string>
             </attr>
         </node>
         <node id="n7">
             <attr name="layout">
-                <string>159 256 57 29</string>
+                <string>166 262 42 17</string>
             </attr>
         </node>
         <node id="n9">
             <attr name="layout">
-                <string>155 526 57 29</string>
+                <string>162 532 42 17</string>
             </attr>
         </node>
         <node id="n8">
             <attr name="layout">
-                <string>410 176 45 29</string>
+                <string>417 182 31 17</string>
+            </attr>
+        </node>
+        <node id="n10">
+            <attr name="layout">
+                <string>751 41 28 17</string>
             </attr>
         </node>
         <edge from="n0" to="n0">
@@ -82,11 +87,6 @@
                 <string>type:cliente</string>
             </attr>
         </edge>
-        <edge from="n1" to="n2">
-            <attr name="label">
-                <string>titular</string>
-            </attr>
-        </edge>
         <edge from="n1" to="n0">
             <attr name="label">
                 <string>conectado</string>
@@ -95,6 +95,16 @@
         <edge from="n1" to="n5">
             <attr name="label">
                 <string>nome</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n2">
+            <attr name="label">
+                <string>titular</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n10">
+            <attr name="label">
+                <string>carteira</string>
             </attr>
         </edge>
         <edge from="n2" to="n2">
@@ -142,14 +152,14 @@
                 <string>valor</string>
             </attr>
         </edge>
-        <edge from="n6" to="n7">
-            <attr name="label">
-                <string>tipo</string>
-            </attr>
-        </edge>
         <edge from="n6" to="n9">
             <attr name="label">
                 <string>msg</string>
+            </attr>
+        </edge>
+        <edge from="n6" to="n7">
+            <attr name="label">
+                <string>tipo</string>
             </attr>
         </edge>
         <edge from="n7" to="n7">
@@ -165,6 +175,11 @@
         <edge from="n8" to="n8">
             <attr name="label">
                 <string>bool:</string>
+            </attr>
+        </edge>
+        <edge from="n10" to="n10">
+            <attr name="label">
+                <string>real:</string>
             </attr>
         </edge>
     </graph>

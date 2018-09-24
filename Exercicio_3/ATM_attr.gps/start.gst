@@ -6,32 +6,47 @@
         </attr>
         <node id="n0">
             <attr name="layout">
-                <string>477 261 47 29</string>
+                <string>484 267 32 17</string>
             </attr>
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>122 257 55 29</string>
+                <string>129 263 41 17</string>
             </attr>
         </node>
         <node id="n2">
             <attr name="layout">
-                <string>119 433 60 29</string>
+                <string>127 439 44 17</string>
             </attr>
         </node>
         <node id="n4">
             <attr name="layout">
-                <string>118 71 65 29</string>
+                <string>126 77 49 17</string>
             </attr>
         </node>
         <node id="n7">
             <attr name="layout">
-                <string>322 66 70 29</string>
+                <string>332 72 49 17</string>
+            </attr>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>488 395 26 17</string>
+            </attr>
+        </node>
+        <node id="n5">
+            <attr name="layout">
+                <string>338 121 36 17</string>
             </attr>
         </node>
         <edge from="n0" to="n0">
             <attr name="label">
                 <string>type:ATM</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n3">
+            <attr name="label">
+                <string>ativo</string>
             </attr>
         </edge>
         <edge from="n1" to="n1">
@@ -64,9 +79,24 @@
                 <string>titular</string>
             </attr>
         </edge>
+        <edge from="n4" to="n5">
+            <attr name="label">
+                <string>carteira</string>
+            </attr>
+        </edge>
         <edge from="n7" to="n7">
             <attr name="label">
                 <string>string:"Pedro"</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n3">
+            <attr name="label">
+                <string>bool:true</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n5">
+            <attr name="label">
+                <string>real:100.00</string>
             </attr>
         </edge>
     </graph>
