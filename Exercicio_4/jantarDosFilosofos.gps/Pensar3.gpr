@@ -6,27 +6,37 @@
         </attr>
         <node id="n4">
             <attr name="layout">
-                <string>143 117 56 17</string>
+                <string>219 116 56 17</string>
             </attr>
         </node>
         <node id="n5">
             <attr name="layout">
-                <string>151 33 40 17</string>
+                <string>227 32 40 17</string>
             </attr>
         </node>
         <node id="n3">
             <attr name="layout">
-                <string>109 201 40 17</string>
+                <string>133 200 40 17</string>
             </attr>
         </node>
         <node id="n0">
             <attr name="layout">
-                <string>151 284 39 17</string>
+                <string>227 283 39 17</string>
             </attr>
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>198 201 35 17</string>
+                <string>322 197 40 17</string>
+            </attr>
+        </node>
+        <node id="n7">
+            <attr name="layout">
+                <string>68 256 26 17</string>
+            </attr>
+        </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>411 252 30 17</string>
             </attr>
         </node>
         <edge from="n4" to="n4">
@@ -69,6 +79,16 @@
                 <string>del:pega</string>
             </attr>
         </edge>
+        <edge from="n3" to="n7">
+            <attr name="label">
+                <string>del:segurado</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n2">
+            <attr name="label">
+                <string>new:segurado</string>
+            </attr>
+        </edge>
         <edge from="n0" to="n0">
             <attr name="label">
                 <string>type:Arroz</string>
@@ -82,6 +102,26 @@
         <edge from="n1" to="n0">
             <attr name="label">
                 <string>del:pega</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n2">
+            <attr name="label">
+                <string>new:segurado</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n7">
+            <attr name="label">
+                <string>del:segurado</string>
+            </attr>
+        </edge>
+        <edge from="n7" to="n7">
+            <attr name="label">
+                <string>bool:true</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>bool:false</string>
             </attr>
         </edge>
     </graph>

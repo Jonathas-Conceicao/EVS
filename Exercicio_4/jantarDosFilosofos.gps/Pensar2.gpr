@@ -26,7 +26,17 @@
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>337 147 35 17</string>
+                <string>334 147 40 17</string>
+            </attr>
+        </node>
+        <node id="n7">
+            <attr name="layout">
+                <string>341 303 26 17</string>
+            </attr>
+        </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>334 233 30 17</string>
             </attr>
         </node>
         <edge from="n4" to="n4">
@@ -69,6 +79,16 @@
                 <string>del:pega</string>
             </attr>
         </edge>
+        <edge from="n3" to="n2">
+            <attr name="label">
+                <string>new:segurado</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n7">
+            <attr name="label">
+                <string>del:segurado</string>
+            </attr>
+        </edge>
         <edge from="n0" to="n0">
             <attr name="label">
                 <string>type:Arroz</string>
@@ -82,6 +102,16 @@
         <edge from="n1" to="n1">
             <attr name="label">
                 <string>type:Garfo</string>
+            </attr>
+        </edge>
+        <edge from="n7" to="n7">
+            <attr name="label">
+                <string>bool:true</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>bool:false</string>
             </attr>
         </edge>
     </graph>

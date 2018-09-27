@@ -84,7 +84,7 @@
         </edge>
         <edge from="n2" to="n5">
             <attr name="label">
-                <string>new:segurando</string>
+                <string>new:segurado</string>
             </attr>
         </edge>
         <edge from="n3" to="n3">
