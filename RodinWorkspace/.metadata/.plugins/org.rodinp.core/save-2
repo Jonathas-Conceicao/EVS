@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<index_root>
+<pim project="/Controle_Carros">
+<rodin_index>
+<descriptor element="/Controle_Carros/Contexto.buc|org.eventb.core.contextFile#Contexto|org.eventb.core.constant#'" name="d">
+<occurrence element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#,|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.invariant#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Controle_Carros/Contexto.buc|org.eventb.core.contextFile#Contexto|org.eventb.core.constant#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Controle_Carros/Contexto.buc|org.eventb.core.contextFile#Contexto|org.eventb.core.axiom#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/Contexto.buc|org.eventb.core.contextFile#Contexto|org.eventb.core.axiom#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+</descriptor>
+<descriptor element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina" name="Maquina">
+<occurrence element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#," name="count_ou">
+<occurrence element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#-" name="count_in">
+<occurrence element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#-" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Controle_Carros/Contexto.buc|org.eventb.core.contextFile#Contexto" name="Contexto">
+<occurrence element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.seesContext#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Controle_Carros/Contexto.buc|org.eventb.core.contextFile#Contexto" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#'" name="INITIALISATION">
+<occurrence element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.variable#(" name="n">
+<occurrence element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#,|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#-|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.variable#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#,|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.invariant#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#-|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.invariant#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#,|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+</descriptor>
+</rodin_index>
+<export_table>
+<export file="/Controle_Carros/Contexto.buc">
+<exported element="/Controle_Carros/Contexto.buc|org.eventb.core.contextFile#Contexto" name="Contexto"/>
+<exported element="/Controle_Carros/Contexto.buc|org.eventb.core.contextFile#Contexto|org.eventb.core.constant#'" name="d"/>
+</export>
+<export file="/Controle_Carros/Maquina.bum">
+<exported element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina" name="Maquina"/>
+<exported element="/Controle_Carros/Contexto.buc|org.eventb.core.contextFile#Contexto" name="Contexto"/>
+<exported element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#-" name="count_in"/>
+<exported element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#'" name="INITIALISATION"/>
+<exported element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#," name="count_ou"/>
+<exported element="/Controle_Carros/Contexto.buc|org.eventb.core.contextFile#Contexto|org.eventb.core.constant#'" name="d"/>
+<exported element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.variable#(" name="n"/>
+</export>
+</export_table>
+<graph is_sorted="true">
+<node label="/Controle_Carros/Contexto.buc" mark="false" order_pos="0"/>
+<node label="/Controle_Carros/Maquina.bum" mark="false" order_pos="1">
+<predecessor label="/Controle_Carros/Contexto.buc"/>
+</node>
+</graph>
+<unprocessed file="/Controle_Carros/Maquina.bcm"/>
+<unprocessed file="/Controle_Carros/Maquina.bpo"/>
+<unprocessed file="/Controle_Carros/Maquina.bpr"/>
+<unprocessed file="/Controle_Carros/Maquina.bps"/>
+<unprocessed file="/Controle_Carros/Contexto.bcc"/>
+<unprocessed file="/Controle_Carros/Contexto.bpo"/>
+<unprocessed file="/Controle_Carros/Contexto.bpr"/>
+<unprocessed file="/Controle_Carros/Contexto.bps"/>
+</pim>
+<delta_list/>
+<indexer_registry>
+<registry_entry element_type="org.eventb.core.machineFile">
+<indexer id="machineIndexer"/>
+</registry_entry>
+<registry_entry element_type="org.eventb.core.contextFile">
+<indexer id="contextIndexer"/>
+</registry_entry>
+</indexer_registry>
+</index_root>
