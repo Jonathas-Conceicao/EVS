@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <org.eventb.core.psFile>
-<org.eventb.core.psStatus name="INITIALISATION/inv1/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="13" org.eventb.core.psManual="false"/>
-<org.eventb.core.psStatus name="INITIALISATION/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="13" org.eventb.core.psManual="false"/>
-<org.eventb.core.psStatus name="count_ou/inv1/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="13" org.eventb.core.psManual="false"/>
-<org.eventb.core.psStatus name="count_ou/inv2/INV" org.eventb.core.confidence="-99" org.eventb.core.poStamp="13" org.eventb.core.psManual="false"/>
-<org.eventb.core.psStatus name="count_in/inv1/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="13" org.eventb.core.psManual="false"/>
-<org.eventb.core.psStatus name="count_in/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="13" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/inv1/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="10" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="cont_out/inv1/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="10" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="cont_in/inv1/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="11" org.eventb.core.psManual="false"/>
 </org.eventb.core.psFile>

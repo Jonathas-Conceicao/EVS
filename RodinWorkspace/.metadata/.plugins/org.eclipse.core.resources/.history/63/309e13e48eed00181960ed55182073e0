@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scMachineFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd">
+<org.eventb.core.scRefinesMachine name="'" org.eventb.core.scTarget="/Controle_Carros2/Maquina.bcm" org.eventb.core.source="/Controle_Carros2/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.refinesMachine#0"/>
+<org.eventb.core.scInternalContext name="Contexto">
+<org.eventb.core.scAxiom name="'" org.eventb.core.label="axm1" org.eventb.core.predicate="d∈ℕ" org.eventb.core.source="/Controle_Carros2/Contexto.buc|org.eventb.core.contextFile#Contexto|org.eventb.core.axiom#(" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="(" org.eventb.core.label="axm2" org.eventb.core.predicate="0&lt;d" org.eventb.core.source="/Controle_Carros2/Contexto.buc|org.eventb.core.contextFile#Contexto|org.eventb.core.axiom#)" org.eventb.core.theorem="false"/>
+<org.eventb.core.scConstant name="d" org.eventb.core.source="/Controle_Carros2/Contexto.buc|org.eventb.core.contextFile#Contexto|org.eventb.core.constant#'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.scInternalContext>
+<org.eventb.core.scSeesContext name="CSEES0" org.eventb.core.scTarget="/Controle_Carros2/Contexto.bcc" org.eventb.core.source="/Controle_Carros2/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.seesContext#("/>
+<org.eventb.core.scInvariant name="Contextp" org.eventb.core.label="inv1" org.eventb.core.predicate="n∈ℕ" org.eventb.core.source="/Controle_Carros2/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.invariant#*" org.eventb.core.theorem="false"/>
+<org.eventb.core.scInvariant name="Contextq" org.eventb.core.label="inv1" org.eventb.core.predicate="a∈ℕ" org.eventb.core.source="/Controle_Carros2/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#+" org.eventb.core.theorem="false"/>
+<org.eventb.core.scInvariant name="Contextr" org.eventb.core.label="inv2" org.eventb.core.predicate="b∈ℕ" org.eventb.core.source="/Controle_Carros2/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#," org.eventb.core.theorem="false"/>
+<org.eventb.core.scInvariant name="Contexts" org.eventb.core.label="inv3" org.eventb.core.predicate="c∈ℕ" org.eventb.core.source="/Controle_Carros2/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#-" org.eventb.core.theorem="false"/>
+<org.eventb.core.scInvariant name="Contextt" org.eventb.core.label="inv4" org.eventb.core.predicate="a+b+c=n" org.eventb.core.source="/Controle_Carros2/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#." org.eventb.core.theorem="false"/>
+<org.eventb.core.scInvariant name="Contextu" org.eventb.core.label="inv5" org.eventb.core.predicate="a=0∨c=0" org.eventb.core.source="/Controle_Carros2/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#\/" org.eventb.core.theorem="false"/>
+<org.eventb.core.scVariable name="a" org.eventb.core.abstract="false" org.eventb.core.concrete="true" org.eventb.core.source="/Controle_Carros2/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.variable#(" org.eventb.core.type="ℤ"/>
+<org.eventb.core.scVariable name="b" org.eventb.core.abstract="false" org.eventb.core.concrete="true" org.eventb.core.source="/Controle_Carros2/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.variable#)" org.eventb.core.type="ℤ"/>
+<org.eventb.core.scVariable name="c" org.eventb.core.abstract="false" org.eventb.core.concrete="true" org.eventb.core.source="/Controle_Carros2/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.variable#*" org.eventb.core.type="ℤ"/>
+<org.eventb.core.scVariable name="n" org.eventb.core.abstract="true" org.eventb.core.concrete="false" org.eventb.core.source="/Controle_Carros2/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.variable#)" org.eventb.core.type="ℤ"/>
+<org.eventb.core.scEvent name="Contextv" org.eventb.core.accurate="false" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="INITIALISATION" org.eventb.core.source="/Controle_Carros2/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#'">
+<org.eventb.core.scRefinesEvent name="'" org.eventb.core.scTarget="/Controle_Carros2/Maquina.bcm|org.eventb.core.scMachineFile#Maquina|org.eventb.core.scEvent#Contextq" org.eventb.core.source="/Controle_Carros2/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#'"/>
+<org.eventb.core.scAction name="(" org.eventb.core.assignment="a,b,c :∣ ⊤" org.eventb.core.label="GEN" org.eventb.core.source="/Controle_Carros2/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#'"/>
+</org.eventb.core.scEvent>
+</org.eventb.core.scMachineFile>

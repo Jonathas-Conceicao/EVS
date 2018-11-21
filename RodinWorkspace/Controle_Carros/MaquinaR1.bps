@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.psFile>
+<org.eventb.core.psStatus name="INITIALISATION/inv1/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="12" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="12" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/inv3/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="12" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="12" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/inv5/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="12" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="cont_out/inv1/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="15" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="cont_out/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="15" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="cont_out/inv5/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="15" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="cont_out/grd1/GRD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="15" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="cont_in/inv3/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="19" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="cont_in/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="19" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="cont_in/inv5/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="19" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="cont_in/grd1/GRD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="19" org.eventb.core.psManual="false"/>
+</org.eventb.core.psFile>
