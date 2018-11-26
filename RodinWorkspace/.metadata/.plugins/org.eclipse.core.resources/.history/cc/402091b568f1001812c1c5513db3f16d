@@ -1,0 +1,1481 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.prFile version="1">
+<org.eventb.core.prProof name="INITIALISATION/inv3/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="COR">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p3">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p2"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p3" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="VERMELHO=VERDE⇒0=0∨0+0&gt;d"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="VERMELHO≠VERDE"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="¬VERMELHO=VERDE"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="INITIALISATION/act1/SIM" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="VERMELHO≠VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="¬VERMELHO=VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="INITIALISATION/act2/SIM" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="VERMELHO≠VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="¬VERMELHO=VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="INITIALISATION/act3/SIM" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="VERMELHO≠VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="¬VERMELHO=VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="INITIALISATION/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.prSets="COR">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p2">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p2"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="hyp" org.eventb.core.prGoal="p2" org.eventb.core.prHyps="p2"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="VERMELHO≠VERDE"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="¬VERMELHO=VERDE"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="VERMELHO=VERDE⇒0=0∧0&lt;0"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.hyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="INITIALISATION/inv5/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.prSets="COR">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p2">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p2"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="hyp" org.eventb.core.prGoal="p2" org.eventb.core.prHyps="p2"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="VERMELHO=VERDE⇒0&lt;0"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="VERMELHO≠VERDE"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="¬VERMELHO=VERDE"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.hyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="cont_in/inv3/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2" org.eventb.core.prSets="COR">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="p2" org.eventb.core.prInfHyps="p4"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="p2" org.eventb.core.prInfHyps="p5"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p6" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p7"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p4" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p8"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p5" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p9"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p10" org.eventb.core.prHyps="p8" org.eventb.core.prInfHyps="p11"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p11" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p12"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p13"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p14"/>
+<org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⇒ goal" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p16" org.eventb.core.prHyps="p15">
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p16" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p16">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p9" org.eventb.core.prHyps="p15" org.eventb.core.prInfHyps="p17"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p17" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p18"/>
+<org.eventb.core.prRule name="r4" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊥ hyp" org.eventb.core.prHyps="p18"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="sc" org.eventb.core.type="COR"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="si∈COR">
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="⊥"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="si=VERDE⇒0&lt;b">
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="sc=VERDE⇒⊥∨a+b&gt;d"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="sc=VERDE⇒c=0∨a+b&gt;d"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="sc∈COR"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="sc=VERDE⇒c − 1=0∨a+b&gt;d"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="VERMELHO≠VERDE">
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="si=VERDE⇒⊤∧0&lt;b">
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="⊤⇒⊥"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="sc=VERDE"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="sc=VERDE⇒a+b&gt;d"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="a=0∨⊥"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="¬VERMELHO=VERDE">
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="a=0"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="a=0∨c=0"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="si=VERDE⇒a=0∧0&lt;b">
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="c − 1=0∨a+b&gt;d"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="0&lt;c"/>
+<org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.falseHyp"/>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="cont_in/grd1/GRD" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p2"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p3"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="si∈COR">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="sc∈COR">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="sc" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="VERMELHO≠VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="¬VERMELHO=VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="cont_in/act1/SIM" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p2"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p3"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="si∈COR">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="sc∈COR">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="sc" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="VERMELHO≠VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="¬VERMELHO=VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="ilha_in/inv3/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2" org.eventb.core.prSets="COR">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p2" org.eventb.core.prHyps="p1" org.eventb.core.prInfHyps="p3"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p4" org.eventb.core.prHyps="p1" org.eventb.core.prInfHyps="p5"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p10">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p6" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p7"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p8"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p5" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p9"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p10" org.eventb.core.prHyps="p8">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p13">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p11" org.eventb.core.prHyps="p8" org.eventb.core.prInfHyps="p12"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p13" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p14">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p12"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p14" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="sc" org.eventb.core.type="COR"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="sc=VERDE⇒c=0∨a − 1+b+1&gt;d"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="sc=VERDE⇒c=0∨a − 1+(b+1)&gt;d"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="sc=VERDE⇒c=0∨a+b&gt;d"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="sc=VERDE⇒⊤∨a − 1+b+1&gt;d"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="VERMELHO≠VERDE">
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="⊥∨c=0"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="¬si=VERDE">
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="sc=VERDE⇒⊤∨a+b&gt;d"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="si=VERDE⇒⊥∧0&lt;b">
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="c=0"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="¬VERMELHO=VERDE">
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="0&lt;a"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="a=0∨c=0"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="si=VERDE⇒a=0∧0&lt;b">
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="ilha_in/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2" org.eventb.core.prSets="COR">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="p1" org.eventb.core.prInfHyps="p4"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p2" org.eventb.core.prHyps="p1" org.eventb.core.prInfHyps="p5"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p6" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p7"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p4" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p8"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p5" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p9"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p9">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p12">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p10" org.eventb.core.prHyps="p8" org.eventb.core.prInfHyps="p11"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p12" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p13">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p11"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p13" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="⊥⇒a − 1=0∧0&lt;b+1"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="si=VERDE⇒a − 1=0∧0&lt;b+1"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="sc=VERDE⇒c=0∨a+b&gt;d">
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="sc" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="VERMELHO≠VERDE">
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="⊥∨c=0">
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="¬si=VERDE"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="sc=VERDE⇒⊤∨a+b&gt;d">
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="sc" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="si=VERDE⇒⊥∧0&lt;b"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="c=0">
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="¬VERMELHO=VERDE">
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="0&lt;a"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="si=VERDE⇒a=0∧0&lt;b"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="a=0∨c=0">
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="ilha_in/inv5/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p0" org.eventb.core.prSets="COR">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="hyp" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p0"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="si=VERDE⇒0&lt;b"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.hyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="ilha_in/grd1/GRD" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p2"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p3"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="si∈COR">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="sc∈COR">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="sc" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="VERMELHO≠VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="¬VERMELHO=VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="ilha_in/act1/SIM" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p2"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p3"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="si∈COR">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="sc∈COR">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="sc" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="VERMELHO≠VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="¬VERMELHO=VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="ilha_in/act2/SIM" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p2"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p3"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="si∈COR">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="sc∈COR">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="sc" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="VERMELHO≠VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="¬VERMELHO=VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="cont_out/inv3/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2" org.eventb.core.prSets="COR">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p4">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p2" org.eventb.core.prHyps="p1" org.eventb.core.prInfHyps="p3"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p4" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p8">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p5" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p6"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p7"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p8" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p8">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p9" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p10"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p7" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p11"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p10" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p12"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p11" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p13"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p14" org.eventb.core.prHyps="p12" org.eventb.core.prInfHyps="p15"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p15" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p16"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p17"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p18"/>
+<org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="PP" org.eventb.core.prGoal="p8" org.eventb.core.prHyps="p1,p13">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="sc" org.eventb.core.type="COR"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="a+b&gt;d"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="sc=VERDE⇒c=0∨a − 1+(b+1)&gt;d"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="si∈COR">
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="si=VERDE⇒0&lt;b">
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="⊤⇒c=0∨a − 1+(b+1)&gt;d"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="sc=VERDE⇒c=0∨a+b&gt;d"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="sc∈COR"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="VERMELHO≠VERDE">
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="c=0∨a − 1+b+1&gt;d"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="si=VERDE⇒⊤∧0&lt;b">
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="⊤⇒c=0∨a+b&gt;d"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="c=0∨a+b&gt;d"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="sc=VERDE"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="a=0∨⊥"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="⊥∨a+b&gt;d"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="¬VERMELHO=VERDE">
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="a=0"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="a=0∨c=0"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="si=VERDE⇒a=0∧0&lt;b">
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalPP:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="cont_out/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p0" org.eventb.core.prSets="COR">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="hyp" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p0"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="si=VERDE⇒a=0∧0&lt;b"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.hyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="cont_out/grd1/GRD" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="p2" org.eventb.core.prInfHyps="p1"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p4"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p5"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p6"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p7"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="⊤⇒c=0∨a+b&gt;d">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="c=0∨a+b&gt;d">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="si∈COR">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="sc=VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="sc" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="sc=VERDE⇒c=0∨a+b&gt;d">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="sc" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="sc∈COR">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="sc" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="VERMELHO≠VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="¬VERMELHO=VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="cont_out/grd2/GRD" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p0">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p2"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="p5" org.eventb.core.prInfHyps="p4"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p6" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p7"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p2" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p8"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p4" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p9"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p10" org.eventb.core.prHyps="p8" org.eventb.core.prInfHyps="p11"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p11" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p12"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p13"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p14"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="a+b&gt;d">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="si∈COR">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="si=VERDE⇒0&lt;b">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="sc=VERDE⇒c=0∨a+b&gt;d">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="sc" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="sc∈COR">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="sc" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="VERMELHO≠VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="si=VERDE⇒⊤∧0&lt;b">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="⊤⇒⊥∨a+b&gt;d">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="sc=VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="sc" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="a=0∨⊥">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="c=0"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="¬VERMELHO=VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="a=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="a=0∨c=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="si=VERDE⇒a=0∧0&lt;b">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="cont_out/act1/SIM" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="p2" org.eventb.core.prInfHyps="p1"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p4"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p5"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p6"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p7"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="⊤⇒c=0∨a+b&gt;d">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="c=0∨a+b&gt;d">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="si∈COR">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="sc=VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="sc" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="sc=VERDE⇒c=0∨a+b&gt;d">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="sc" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="sc∈COR">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="sc" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="VERMELHO≠VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="¬VERMELHO=VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="ilha_out/inv3/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p0" org.eventb.core.prSets="COR">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="hyp" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p0"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="sc" org.eventb.core.type="COR"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="sc=VERDE⇒c=0∨a+b&gt;d"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.hyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="ilha_out/inv5/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p0" org.eventb.core.prSets="COR">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="hyp" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p0"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="si=VERDE⇒0&lt;b"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.hyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="ilha_out/grd1/GRD" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2" org.eventb.core.prSets="COR">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p0">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="p2" org.eventb.core.prInfHyps="p3"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p4" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p5"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p6"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊥ hyp" org.eventb.core.prHyps="p6"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="⊥"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="VERMELHO≠VERDE">
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="¬VERMELHO=VERDE">
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="si=VERDE⇒a=0∧0&lt;b"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="0&lt;b"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="si=VERDE"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="⊤⇒a=0∧⊥"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.falseHyp"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="ilha_out/grd2/GRD" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2" org.eventb.core.prSets="COR">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p0">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p4"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="p2" org.eventb.core.prInfHyps="p5"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p6" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p7"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p4" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p8"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p5" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p9"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊥ hyp" org.eventb.core.prHyps="p9"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="⊥∨c=0">
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="⊥"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="c=0">
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="a=0"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="VERMELHO≠VERDE">
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="¬VERMELHO=VERDE">
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="si=VERDE⇒a=0∧0&lt;b"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="a=0∨c=0">
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="⊤⇒⊥∧0&lt;b"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="si=VERDE"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.falseHyp"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="ilha_out/act1/SIM" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="p2" org.eventb.core.prInfHyps="p1"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p4"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p5,p6"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p7" org.eventb.core.prHyps="p5" org.eventb.core.prInfHyps="p8"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p8"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p9"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p10"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="⊤⇒a=0∧0&lt;b">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="si∈COR">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="sc∈COR">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="sc" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="VERMELHO≠VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="¬VERMELHO=VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="a=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="si=VERDE⇒a=0∧0&lt;b">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="a=0∨c=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="0&lt;b">
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="si=VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="⊤∨c=0">
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="ilha_out/act2/SIM" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="p2" org.eventb.core.prInfHyps="p1"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p4"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p5,p6"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p7" org.eventb.core.prHyps="p5" org.eventb.core.prInfHyps="p8"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p8"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p9"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p10"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="⊤⇒a=0∧0&lt;b">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="si∈COR">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="sc∈COR">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="sc" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="VERMELHO≠VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="¬VERMELHO=VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="a=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="si=VERDE⇒a=0∧0&lt;b">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="a=0∨c=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="0&lt;b">
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="si=VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="⊤∨c=0">
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="sc_verde/inv3/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2" org.eventb.core.prSets="COR">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p7">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="p2" org.eventb.core.prInfHyps="p4"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p5" org.eventb.core.prHyps="p2,p1" org.eventb.core.prInfHyps="p6"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p7" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p10">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p8" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p9"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p4"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p6"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p10" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="VERDE=VERDE⇒⊤∨⊥"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="a+b&lt;d"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="sc=VERDE⇒c=0∨a+b&gt;d">
+<org.eventb.core.prIdent name="sc" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="VERDE=VERDE⇒c=0∨a+b&gt;d"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="c=0"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="a=0∨⊤"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="VERMELHO≠VERDE">
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="¬VERMELHO=VERDE">
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="a=0∨c=0"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="sc=VERDE⇒⊤∨⊥">
+<org.eventb.core.prIdent name="sc" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="sc_verde/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.prSets="COR">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p2" org.eventb.core.prHyps="p4" org.eventb.core.prInfHyps="p3"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p5" org.eventb.core.prHyps="p4,p7" org.eventb.core.prInfHyps="p6"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p8"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p3"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p6"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p8">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p9">
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p9" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p10">
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p10" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="⊥⇒a=0∧0&lt;b"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="VERMELHO=VERDE⇒a=0∧0&lt;b"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="a+b&lt;d">
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="sc=VERDE⇒c=0∨a+b&gt;d">
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="sc" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="a=0∨⊤"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="c=0">
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="VERMELHO≠VERDE"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="¬VERMELHO=VERDE"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="a=0∨c=0">
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="sc=VERDE⇒⊤∨⊥">
+<org.eventb.core.prIdent name="sc" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="sc_verde/inv5/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.prSets="COR">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p2" org.eventb.core.prHyps="p4" org.eventb.core.prInfHyps="p3"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p5" org.eventb.core.prHyps="p4,p7" org.eventb.core.prInfHyps="p6"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p8"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p3"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p6"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p8">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p9">
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p9" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p10">
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p10" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="a+b&lt;d">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="⊥⇒0&lt;b"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="sc=VERDE⇒c=0∨a+b&gt;d">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="sc" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="VERMELHO=VERDE⇒0&lt;b"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="a=0∨⊤">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="c=0">
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="VERMELHO≠VERDE"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="¬VERMELHO=VERDE"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="a=0∨c=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="sc=VERDE⇒⊤∨⊥">
+<org.eventb.core.prIdent name="sc" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="si_verde/inv3/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.prSets="COR">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p2" org.eventb.core.prHyps="p4" org.eventb.core.prInfHyps="p3"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p5" org.eventb.core.prHyps="p4,p7" org.eventb.core.prInfHyps="p6"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p8"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p3"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p6"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p8">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p9">
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p9" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p10">
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p10" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="b&gt;0"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="VERMELHO=VERDE⇒c=0∨a+b&gt;d"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="si=VERDE⇒⊤∧⊤">
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="VERMELHO≠VERDE"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="a=0"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="¬VERMELHO=VERDE"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="a=0∨c=0"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="si=VERDE⇒a=0∧0&lt;b">
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="⊥⇒c=0∨a+b&gt;d"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="⊤∨c=0"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="si_verde/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2" org.eventb.core.prSets="COR">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p7">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="p2" org.eventb.core.prInfHyps="p4"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p5" org.eventb.core.prHyps="p2,p1" org.eventb.core.prInfHyps="p6"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p7" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p10">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p8" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p9"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p4"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p6"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p10" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="b&gt;0"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="VERDE=VERDE⇒⊤∧⊤"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="si=VERDE⇒⊤∧⊤">
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="a=0"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="VERMELHO≠VERDE">
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="¬VERMELHO=VERDE">
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="a=0∨c=0">
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="si=VERDE⇒a=0∧0&lt;b">
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="VERDE=VERDE⇒a=0∧0&lt;b"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="⊤∨c=0">
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="si_verde/inv5/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.prSets="COR">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p8">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p2" org.eventb.core.prHyps="p4" org.eventb.core.prInfHyps="p3"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p5" org.eventb.core.prHyps="p4" org.eventb.core.prInfHyps="p6"/>
+<org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p7" org.eventb.core.prHyps="p1" org.eventb.core.prInfHyps="p6"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p8" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p11">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p9" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p10"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p3"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p6"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p11" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="si=VERDE⇒0&lt;b">
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="si=VERDE⇒a=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="VERDE=VERDE⇒⊤"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="b&gt;0"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="si=VERDE⇒⊤">
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="VERDE=VERDE⇒0&lt;b"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="a=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="VERMELHO≠VERDE">
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="¬VERMELHO=VERDE">
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="a=0∨c=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="⊤∨c=0">
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="ilha_out/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p0" org.eventb.core.prSets="COR">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="hyp" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p0"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="si=VERDE⇒a=0∧0&lt;b"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.hyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="cont_out/b/EQL" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="p2" org.eventb.core.prInfHyps="p1"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p4"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p5"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p6"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p7"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="⊤⇒c=0∨a+b&gt;d">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="c=0∨a+b&gt;d">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="si∈COR">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="si" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="sc=VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="sc" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="sc=VERDE⇒c=0∨a+b&gt;d">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="sc" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="sc∈COR">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="sc" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="VERMELHO≠VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="¬VERMELHO=VERDE">
+<org.eventb.core.prIdent name="COR" org.eventb.core.type="ℙ(COR)"/>
+<org.eventb.core.prIdent name="VERDE" org.eventb.core.type="COR"/>
+<org.eventb.core.prIdent name="VERMELHO" org.eventb.core.type="COR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+</org.eventb.core.prFile>
