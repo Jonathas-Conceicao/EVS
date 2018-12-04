@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scMachineFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd">
+<org.eventb.core.scSeesContext name="'" org.eventb.core.scTarget="/Carros_dois_refinamentos/C_inicial.bcc" org.eventb.core.source="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.seesContext#+"/>
+<org.eventb.core.scInternalContext name="C_inicial">
+<org.eventb.core.scAxiom name="'" org.eventb.core.label="axm0_1" org.eventb.core.predicate="d∈ℕ" org.eventb.core.source="/Carros_dois_refinamentos/C_inicial.buc|org.eventb.core.contextFile#C_inicial|org.eventb.core.axiom#(" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="(" org.eventb.core.label="axm0_2" org.eventb.core.predicate="0&lt;d" org.eventb.core.source="/Carros_dois_refinamentos/C_inicial.buc|org.eventb.core.contextFile#C_inicial|org.eventb.core.axiom#)" org.eventb.core.theorem="false"/>
+<org.eventb.core.scConstant name="d" org.eventb.core.source="/Carros_dois_refinamentos/C_inicial.buc|org.eventb.core.contextFile#C_inicial|org.eventb.core.constant#'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.scInternalContext>
+<org.eventb.core.scInvariant name="C_iniciam" org.eventb.core.label="inv0_1" org.eventb.core.predicate="n∈ℕ" org.eventb.core.source="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.invariant#)" org.eventb.core.theorem="false"/>
+<org.eventb.core.scInvariant name="C_inician" org.eventb.core.label="inv0_2" org.eventb.core.predicate="n≤d" org.eventb.core.source="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.invariant#*" org.eventb.core.theorem="false"/>
+<org.eventb.core.scInvariant name="C_iniciao" org.eventb.core.label="inv0_deadlock" org.eventb.core.predicate="n&lt;d∨0&lt;n" org.eventb.core.source="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.invariant#\/" org.eventb.core.theorem="true"/>
+<org.eventb.core.scVariable name="n" org.eventb.core.abstract="false" org.eventb.core.concrete="true" org.eventb.core.source="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.variable#(" org.eventb.core.type="ℤ"/>
+<org.eventb.core.scEvent name="C_iniciap" org.eventb.core.accurate="true" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="cont_out" org.eventb.core.source="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.event#,">
+<org.eventb.core.scGuard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="n&lt;d" org.eventb.core.source="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.event#,|org.eventb.core.guard#(" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAction name="(" org.eventb.core.assignment="n ≔ n+1" org.eventb.core.label="act1" org.eventb.core.source="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.event#,|org.eventb.core.action#'"/>
+</org.eventb.core.scEvent>
+<org.eventb.core.scEvent name="C_iniciaq" org.eventb.core.accurate="true" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="cont_in" org.eventb.core.source="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.event#-">
+<org.eventb.core.scGuard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="0&lt;n" org.eventb.core.source="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.event#-|org.eventb.core.guard#(" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAction name="(" org.eventb.core.assignment="n ≔ n − 1" org.eventb.core.label="act1" org.eventb.core.source="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.event#-|org.eventb.core.action#'"/>
+</org.eventb.core.scEvent>
+<org.eventb.core.scEvent name="C_iniciar" org.eventb.core.accurate="true" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="INITIALISATION" org.eventb.core.source="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.event#.">
+<org.eventb.core.scAction name="'" org.eventb.core.assignment="n ≔ 0" org.eventb.core.label="act1" org.eventb.core.source="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.event#.|org.eventb.core.action#'"/>
+</org.eventb.core.scEvent>
+</org.eventb.core.scMachineFile>

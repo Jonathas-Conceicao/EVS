@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" version="5">
+<org.eventb.core.event name="'" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="INITIALISATION">
+<org.eventb.core.action name="(" org.eventb.core.assignment="sc≔red" org.eventb.core.label="act4"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="si≔red" org.eventb.core.label="act5"/>
+<org.eventb.core.action name="*" org.eventb.core.assignment="pass_cont≔1" org.eventb.core.label="act6"/>
+<org.eventb.core.action name="+" org.eventb.core.assignment="pass_ilha≔1" org.eventb.core.label="act7"/>
+</org.eventb.core.event>
+<org.eventb.core.refinesMachine name="(" org.eventb.core.target="M1"/>
+<org.eventb.core.seesContext name=")" org.eventb.core.target="C_inicial"/>
+<org.eventb.core.seesContext name="*" org.eventb.core.target="C_semaforos"/>
+<org.eventb.core.variable name="," org.eventb.core.comment="Semáforo da ilha" org.eventb.core.identifier="si"/>
+<org.eventb.core.variable name="-" org.eventb.core.comment="Semáforo do continente" org.eventb.core.identifier="sc"/>
+<org.eventb.core.invariant name="." org.eventb.core.label="inv2_1" org.eventb.core.predicate="si ∈ COLOR"/>
+<org.eventb.core.invariant name="/" org.eventb.core.label="inv2_2" org.eventb.core.predicate="sc ∈ COLOR"/>
+<org.eventb.core.invariant name="0" org.eventb.core.label="inv2_3" org.eventb.core.predicate="sc = green ⇒ c=0 ∧ a+b&lt;d"/>
+<org.eventb.core.invariant name="1" org.eventb.core.label="inv2_4" org.eventb.core.predicate="si = green ⇒ a=0 ∧ 0&lt;b"/>
+<org.eventb.core.variable name=":" org.eventb.core.identifier="a"/>
+<org.eventb.core.variable name=";" org.eventb.core.identifier="b"/>
+<org.eventb.core.variable name="=" org.eventb.core.identifier="c"/>
+<org.eventb.core.event name="&gt;" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="cont_out1">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="cont_out"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd1" org.eventb.core.predicate="sc=green"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="a≔a+1" org.eventb.core.label="act1"/>
+<org.eventb.core.guard name="*" org.eventb.core.label="grd2" org.eventb.core.predicate="a+b+1&lt;d"/>
+<org.eventb.core.action name="+" org.eventb.core.assignment="pass_cont≔1" org.eventb.core.label="act2"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="E" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="cont_out2">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="cont_out"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd1" org.eventb.core.predicate="sc=green"/>
+<org.eventb.core.guard name=")" org.eventb.core.label="grd2" org.eventb.core.predicate="a+b+1=d"/>
+<org.eventb.core.action name="*" org.eventb.core.assignment="a≔a+1" org.eventb.core.label="act1"/>
+<org.eventb.core.action name="+" org.eventb.core.assignment="sc≔red" org.eventb.core.label="act2"/>
+<org.eventb.core.action name="," org.eventb.core.assignment="pass_cont≔1" org.eventb.core.label="act3"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="?" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="ilha_out1">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="ilha_out"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd1" org.eventb.core.predicate="si=green"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="c≔c+1" org.eventb.core.label="act1"/>
+<org.eventb.core.action name="*" org.eventb.core.assignment="b≔b−1" org.eventb.core.label="act2"/>
+<org.eventb.core.guard name="+" org.eventb.core.label="grd2" org.eventb.core.predicate="b≠1"/>
+<org.eventb.core.action name="," org.eventb.core.assignment="pass_ilha≔1" org.eventb.core.label="act3"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="F" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="ilha_out2">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="ilha_out"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd1" org.eventb.core.predicate="si=green"/>
+<org.eventb.core.guard name=")" org.eventb.core.label="grd2" org.eventb.core.predicate="b=1"/>
+<org.eventb.core.action name="*" org.eventb.core.assignment="b≔b−1" org.eventb.core.label="act1"/>
+<org.eventb.core.action name="+" org.eventb.core.assignment="c≔c+1" org.eventb.core.label="act2"/>
+<org.eventb.core.action name="," org.eventb.core.assignment="si≔red" org.eventb.core.label="act3"/>
+<org.eventb.core.action name="-" org.eventb.core.assignment="pass_ilha≔1" org.eventb.core.label="act4"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="@" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="cont_in">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="cont_in"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="A" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="ilha_in">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="ilha_in"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="B" org.eventb.core.convergence="1" org.eventb.core.extended="false" org.eventb.core.label="sc_green">
+<org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="sc=red"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd2" org.eventb.core.predicate="c=0"/>
+<org.eventb.core.guard name=")" org.eventb.core.label="grd3" org.eventb.core.predicate="a+b&lt;d"/>
+<org.eventb.core.action name="*" org.eventb.core.assignment="sc≔green" org.eventb.core.label="act1"/>
+<org.eventb.core.action name="+" org.eventb.core.assignment="si≔red" org.eventb.core.label="act2"/>
+<org.eventb.core.guard name="," org.eventb.core.label="grd4" org.eventb.core.predicate="pass_ilha=1"/>
+<org.eventb.core.action name="-" org.eventb.core.assignment="pass_cont≔0" org.eventb.core.label="act3"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="C" org.eventb.core.convergence="1" org.eventb.core.extended="false" org.eventb.core.label="si_green">
+<org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="si=red"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd2" org.eventb.core.predicate="a=0"/>
+<org.eventb.core.guard name=")" org.eventb.core.label="grd3" org.eventb.core.predicate="b&gt;0"/>
+<org.eventb.core.action name="*" org.eventb.core.assignment="si≔green" org.eventb.core.label="act1"/>
+<org.eventb.core.action name="+" org.eventb.core.assignment="sc≔red" org.eventb.core.label="act2"/>
+<org.eventb.core.guard name="," org.eventb.core.label="grd4" org.eventb.core.predicate="pass_cont=1"/>
+<org.eventb.core.action name="-" org.eventb.core.assignment="pass_ilha≔0" org.eventb.core.label="act3"/>
+</org.eventb.core.event>
+<org.eventb.core.invariant name="D" org.eventb.core.label="inv2_5" org.eventb.core.predicate="sc=red ∨ si=red"/>
+<org.eventb.core.variable name="G" org.eventb.core.identifier="pass_cont"/>
+<org.eventb.core.variable name="H" org.eventb.core.identifier="pass_ilha"/>
+<org.eventb.core.invariant name="I" org.eventb.core.label="inv2_6" org.eventb.core.predicate="pass_cont ∈ {0,1}"/>
+<org.eventb.core.invariant name="J" org.eventb.core.label="inv2_7" org.eventb.core.predicate="pass_ilha ∈ {0,1}"/>
+<org.eventb.core.variant name="K" org.eventb.core.expression="pass_cont+pass_ilha"/>
+<org.eventb.core.invariant name="L" org.eventb.core.label="inv2_8" org.eventb.core.predicate="sc=red⇒pass_cont=1"/>
+<org.eventb.core.invariant name="M" org.eventb.core.label="inv2_9" org.eventb.core.predicate="si=red⇒pass_ilha=1"/>
+<org.eventb.core.invariant name="N" org.eventb.core.label="inv2_deadlock" org.eventb.core.predicate="(sc=green ∧ a+b+1&lt;d) ∨&#10;(sc=green ∧ a+b+1=d) ∨&#10;(si=green ∧ b≠1) ∨&#10;(si=green ∧ b=1) ∨&#10;(sc=red ∧ c=0 ∧ a+b&lt;d ∧ pass_ilha=1) ∨&#10;(si=red ∧ a=0 ∧ b&gt;0 ∧ pass_cont=1) ∨&#10;0&lt;c ∨&#10;0&lt;a"/>
+<org.eventb.core.invariant name="O" org.eventb.core.label="inv2_trd_exc_si" org.eventb.core.predicate="si=green ⇔ ¬ (si = red)"/>
+<org.eventb.core.invariant name="P" org.eventb.core.label="inv2_trd_exc_sc" org.eventb.core.predicate="sc=green ⇔ ¬ (sc = red)"/>
+</org.eventb.core.machineFile>

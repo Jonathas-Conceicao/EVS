@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scContextFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd">
+<org.eventb.core.scAxiom name="'" org.eventb.core.label="axm0_1" org.eventb.core.predicate="d∈ℕ" org.eventb.core.source="/Carros_dois_refinamentos/C_inicial.buc|org.eventb.core.contextFile#C_inicial|org.eventb.core.axiom#(" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="(" org.eventb.core.label="axm0_2" org.eventb.core.predicate="0&lt;d" org.eventb.core.source="/Carros_dois_refinamentos/C_inicial.buc|org.eventb.core.contextFile#C_inicial|org.eventb.core.axiom#)" org.eventb.core.theorem="false"/>
+<org.eventb.core.scConstant name="d" org.eventb.core.source="/Carros_dois_refinamentos/C_inicial.buc|org.eventb.core.contextFile#C_inicial|org.eventb.core.constant#'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.scContextFile>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poPredicate name="e" org.eventb.core.predicate="d∈ℕ" org.eventb.core.source="/Controle_Carros/Contexto.buc|org.eventb.core.contextFile#Contexto|org.eventb.core.axiom#("/>
+<org.eventb.core.poPredicate name="f" org.eventb.core.predicate="0&lt;d" org.eventb.core.source="/Controle_Carros/Contexto.buc|org.eventb.core.contextFile#Contexto|org.eventb.core.axiom#)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="n" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poPredicate name="o" org.eventb.core.predicate="n∈ℕ" org.eventb.core.source="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.invariant#*"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="INITIALISATION/inv1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#EVTALLHYPContextw"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0∈ℕ" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#+"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#'"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#'"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#+"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poSequent#INITIALISATION\/inv1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#EVTALLHYPContextw"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0∈ℕ" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#,"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#'"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#'"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#,"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poSequent#INITIALISATION\/inv2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD1"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#EVTALLHYPContextw"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0∈ℕ" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#-"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#'"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#'"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#-"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poSequent#INITIALISATION\/inv3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD2"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#EVTALLHYPContextw"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0+0+0=0" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#."/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#'"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#'"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#."/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poSequent#INITIALISATION\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD3"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv5/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#EVTALLHYPContextw"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0=0∨0=0" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#\/"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#'"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#'"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#\/"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poSequent#INITIALISATION\/inv5\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD4"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTContextw" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="a'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="n'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="b'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="c'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPContextw" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#EVTIDENTContextw" org.eventb.core.poStamp="0"/>
+<org.eventb.core.poSequent name="cont_out/inv1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#EVTALLHYPContextx"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="a+1∈ℕ" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#+"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#,"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#1"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#+"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poSequent#cont_out\/inv1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="cont_out/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#EVTALLHYPContextx"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="(a+1)+b+c=n+1" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#."/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#,"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#1"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#."/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poSequent#cont_out\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD3"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="cont_out/inv5/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#EVTALLHYPContextx"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="a+1=0∨c=0" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#\/"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#,"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#1"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#\/"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poSequent#cont_out\/inv5\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD4"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="cont_out/grd1/GRD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Guard strengthening (split)" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#EVTALLHYPContextx"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="n&lt;d" org.eventb.core.source="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#,|org.eventb.core.guard#'"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#,"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#,|org.eventb.core.guard#'"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#1"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poSequent#cont_out\/grd1\/GRD|org.eventb.core.poPredicateSet#SEQHYP"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTContextx" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="a'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="n'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPContextx" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#EVTIDENTContextx" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="a+b&lt;d" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#1|org.eventb.core.guard#'"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="c=0" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#1|org.eventb.core.guard#)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="cont_in/inv3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#EVTALLHYPContexty"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="c − 1∈ℕ" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#-"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#-"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#4"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#-"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poSequent#cont_in\/inv3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD2"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="cont_in/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#EVTALLHYPContexty"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="a+b+(c − 1)=n − 1" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#."/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#-"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#4"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#."/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poSequent#cont_in\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD3"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="cont_in/inv5/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#EVTALLHYPContexty"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="a=0∨c − 1=0" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#\/"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#-"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#4"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#\/"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poSequent#cont_in\/inv5\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD4"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="cont_in/grd1/GRD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Guard strengthening (split)" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#EVTALLHYPContexty"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="n&gt;0" org.eventb.core.source="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#-|org.eventb.core.guard#'"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#-"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#-|org.eventb.core.guard#'"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#4"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poSequent#cont_in\/grd1\/GRD|org.eventb.core.poPredicateSet#SEQHYP"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTContexty" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="n'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="c'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPContexty" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#EVTIDENTContexty" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="0&lt;c" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#4|org.eventb.core.guard#)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="ilha_in/inv1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#EVTALLHYPContextz"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="a − 1∈ℕ" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#+"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#5"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#+"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poSequent#ilha_in\/inv1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ilha_in/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#EVTALLHYPContextz"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="b+1∈ℕ" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#,"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#5"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#,"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poSequent#ilha_in\/inv2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD1"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ilha_in/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#EVTALLHYPContextz"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="a − 1+(b+1)+c=n" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#."/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#5"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#."/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poSequent#ilha_in\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD3"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ilha_in/inv5/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#EVTALLHYPContextz"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="a − 1=0∨c=0" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#\/"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#5"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#\/"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poSequent#ilha_in\/inv5\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD4"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ilha_in/VAR" org.eventb.core.accurate="true" org.eventb.core.poDesc="Variant of event" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#EVTALLHYPContextz"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="2∗(a − 1)+(b+1)&lt;2∗a+b" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.variant#7"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.variant#7"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#5"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poSequent#ilha_in\/VAR|org.eventb.core.poPredicateSet#SEQHYP"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ilha_in/NAT" org.eventb.core.accurate="true" org.eventb.core.poDesc="Natural number variant of event" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#EVTALLHYPContextz"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="2∗a+b∈ℕ" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.variant#7"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.variant#7"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#5"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poSequent#ilha_in\/NAT|org.eventb.core.poPredicateSet#SEQHYP"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTContextz" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="a'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="b'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPContextz" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#EVTIDENTContextz" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="0&lt;a" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#5|org.eventb.core.guard#'"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="ilha_out/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#EVTALLHYPContext{"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="b − 1∈ℕ" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#,"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#,"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poSequent#ilha_out\/inv2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD1"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ilha_out/inv3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#EVTALLHYPContext{"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="c+1∈ℕ" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#-"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#-"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poSequent#ilha_out\/inv3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD2"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ilha_out/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#EVTALLHYPContext{"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="a+(b − 1)+(c+1)=n" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#."/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#."/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poSequent#ilha_out\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD3"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ilha_out/inv5/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#EVTALLHYPContext{"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="a=0∨c+1=0" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#\/"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#\/"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poSequent#ilha_out\/inv5\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD4"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ilha_out/VAR" org.eventb.core.accurate="true" org.eventb.core.poDesc="Variant of event" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#EVTALLHYPContext{"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="2∗a+(b − 1)&lt;2∗a+b" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.variant#7"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.variant#7"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#6"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poSequent#ilha_out\/VAR|org.eventb.core.poPredicateSet#SEQHYP"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ilha_out/NAT" org.eventb.core.accurate="true" org.eventb.core.poDesc="Natural number variant of event" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#EVTALLHYPContext{"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="2∗a+b∈ℕ" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.variant#7"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.variant#7"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#6"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poSequent#ilha_out\/NAT|org.eventb.core.poPredicateSet#SEQHYP"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTContext{" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="b'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="c'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPContext{" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#EVTIDENTContext{" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="0&lt;b" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#6|org.eventb.core.guard#'"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="a=0" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#6|org.eventb.core.guard#("/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/Controle_Carros/MaquinaR1.bpo|org.eventb.core.poFile#MaquinaR1|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="a∈ℕ" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#+"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="b∈ℕ" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#,"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="c∈ℕ" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#-"/>
+<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="a+b+c=n" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#."/>
+<org.eventb.core.poPredicate name="PRD4" org.eventb.core.predicate="a=0∨c=0" org.eventb.core.source="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#\/"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

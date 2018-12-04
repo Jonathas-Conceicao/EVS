@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<index_root>
+<pim project="/Controle_Carros">
+<rodin_index>
+<descriptor element="/Controle_Carros/Contexto.buc|org.eventb.core.contextFile#Contexto|org.eventb.core.constant#'" name="d">
+<occurrence element="/Controle_Carros/Contexto.buc|org.eventb.core.contextFile#Contexto|org.eventb.core.axiom#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Controle_Carros/Contexto.buc|org.eventb.core.contextFile#Contexto|org.eventb.core.axiom#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#9|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#,|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.invariant#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="21" loc_char_start="20"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#1|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/Controle_Carros/Contexto.buc|org.eventb.core.contextFile#Contexto|org.eventb.core.constant#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina" name="Maquina">
+<occurrence element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina" kind="org.eventb.core.declaration"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.refinesMachine#2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#-" name="cont_in">
+<occurrence element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#-" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#4|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.variable#," name="sc">
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#'|org.eventb.core.action#+" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#7|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.invariant#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#:|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="3"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.invariant#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#9|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.variable#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#8" name="ilha_out">
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#8" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.variable#(" name="a">
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#1|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#5|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.variable#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.variable#1" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#1|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.variant#7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.expression" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#5|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#1|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#5|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#6|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.variable#1" name="a">
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.invariant#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="16"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#9|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#:|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.invariant#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="11"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.variable#1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2" name="MaquinaR2">
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#," name="cont_out">
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#1|org.eventb.core.refinesEvent#*" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Controle_Carros/Contexto.buc|org.eventb.core.contextFile#Contexto" name="Contexto">
+<occurrence element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.seesContext#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Controle_Carros/Contexto.buc|org.eventb.core.contextFile#Contexto" kind="org.eventb.core.declaration"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.seesContext#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.seesContext#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#9" name="sc_verde">
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#9" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Controle_Carros/Cor.buc|org.eventb.core.contextFile#Cor|org.eventb.core.carrierSet#+" name="COR">
+<occurrence element="/Controle_Carros/Cor.buc|org.eventb.core.contextFile#Cor|org.eventb.core.axiom#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/Cor.buc|org.eventb.core.contextFile#Cor|org.eventb.core.carrierSet#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.invariant#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="3"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.invariant#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="3"/>
+</descriptor>
+<descriptor element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.variable#)" name="n">
+<occurrence element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.variable#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#,|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#-|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="6"/>
+<occurrence element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#,|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#-|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.invariant#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#,|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#-|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#'" name="INITIALISATION">
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#5" name="cont_in">
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#5" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#6" name="ilha_out">
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#8|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#6" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.variable#2" name="b">
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#:|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.variable#2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.invariant#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="19" loc_char_start="18"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#9|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#'|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.invariant#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="13"/>
+</descriptor>
+<descriptor element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#1" name="cont_out">
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#7|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1" name="MaquinaR1">
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1" kind="org.eventb.core.declaration"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.refinesMachine#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#:" name="si_verde">
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#:" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Controle_Carros/Cor.buc|org.eventb.core.contextFile#Cor|org.eventb.core.constant#*" name="VERDE">
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#9|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="6"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.invariant#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="3"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#:|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="6"/>
+<occurrence element="/Controle_Carros/Cor.buc|org.eventb.core.contextFile#Cor|org.eventb.core.axiom#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="20" loc_char_start="15"/>
+<occurrence element="/Controle_Carros/Cor.buc|org.eventb.core.contextFile#Cor|org.eventb.core.constant#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.invariant#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="3"/>
+<occurrence element="/Controle_Carros/Cor.buc|org.eventb.core.contextFile#Cor|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="9"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.invariant#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="3"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#8|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="3"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#7|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="3"/>
+</descriptor>
+<descriptor element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#'" name="INITIALISATION">
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.variable#*" name="c">
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#4|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.variable#3" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.variable#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="6"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#4|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#6|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#6|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#1|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#4|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#'|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#6" name="ilha_in">
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#6" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#5" name="ilha_in">
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#5" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#6|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#4" name="cont_in">
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#4" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#5|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.variable#+" name="si">
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.invariant#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.variable#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.invariant#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#:|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#9|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="3"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.invariant#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#'|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#8|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#'" name="INITIALISATION">
+<occurrence element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.variable#)" name="b">
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.variable#2" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.variant#7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.expression" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.variable#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#5|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#6|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#5|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#6|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#1|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.invariant#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#'|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#6|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+</descriptor>
+<descriptor element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#7" name="cont_out">
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#7" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Controle_Carros/Cor.buc|org.eventb.core.contextFile#Cor|org.eventb.core.constant#)" name="VERMELHO">
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#9|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="20" loc_char_start="12"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#'|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="3"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#'|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="3"/>
+<occurrence element="/Controle_Carros/Cor.buc|org.eventb.core.contextFile#Cor|org.eventb.core.axiom#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="5"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#:|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="20" loc_char_start="12"/>
+<occurrence element="/Controle_Carros/Cor.buc|org.eventb.core.contextFile#Cor|org.eventb.core.constant#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Controle_Carros/Cor.buc|org.eventb.core.contextFile#Cor|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Controle_Carros/Cor.buc|org.eventb.core.contextFile#Cor" name="Cor">
+<occurrence element="/Controle_Carros/Cor.buc|org.eventb.core.contextFile#Cor" kind="org.eventb.core.declaration"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.seesContext#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.variable#3" name="c">
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.variable#3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#9|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.invariant#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="10"/>
+<occurrence element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#'|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+</descriptor>
+</rodin_index>
+<export_table>
+<export file="/Controle_Carros/Contexto.buc">
+<exported element="/Controle_Carros/Contexto.buc|org.eventb.core.contextFile#Contexto" name="Contexto"/>
+<exported element="/Controle_Carros/Contexto.buc|org.eventb.core.contextFile#Contexto|org.eventb.core.constant#'" name="d"/>
+</export>
+<export file="/Controle_Carros/Cor.buc">
+<exported element="/Controle_Carros/Cor.buc|org.eventb.core.contextFile#Cor" name="Cor"/>
+<exported element="/Controle_Carros/Cor.buc|org.eventb.core.contextFile#Cor|org.eventb.core.constant#)" name="VERMELHO"/>
+<exported element="/Controle_Carros/Cor.buc|org.eventb.core.contextFile#Cor|org.eventb.core.carrierSet#+" name="COR"/>
+<exported element="/Controle_Carros/Cor.buc|org.eventb.core.contextFile#Cor|org.eventb.core.constant#*" name="VERDE"/>
+</export>
+<export file="/Controle_Carros/MaquinaR1.bum">
+<exported element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#'" name="INITIALISATION"/>
+<exported element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#1" name="cont_out"/>
+<exported element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina" name="Maquina"/>
+<exported element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#5" name="ilha_in"/>
+<exported element="/Controle_Carros/Contexto.buc|org.eventb.core.contextFile#Contexto" name="Contexto"/>
+<exported element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.variable#(" name="a"/>
+<exported element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.variable#)" name="b"/>
+<exported element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.variable#*" name="c"/>
+<exported element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#4" name="cont_in"/>
+<exported element="/Controle_Carros/Contexto.buc|org.eventb.core.contextFile#Contexto|org.eventb.core.constant#'" name="d"/>
+<exported element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1|org.eventb.core.event#6" name="ilha_out"/>
+<exported element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1" name="MaquinaR1"/>
+</export>
+<export file="/Controle_Carros/MaquinaR2.bum">
+<exported element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina" name="Maquina"/>
+<exported element="/Controle_Carros/Cor.buc|org.eventb.core.contextFile#Cor" name="Cor"/>
+<exported element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.variable#+" name="si"/>
+<exported element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#8" name="ilha_out"/>
+<exported element="/Controle_Carros/Contexto.buc|org.eventb.core.contextFile#Contexto" name="Contexto"/>
+<exported element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#5" name="cont_in"/>
+<exported element="/Controle_Carros/Cor.buc|org.eventb.core.contextFile#Cor|org.eventb.core.constant#)" name="VERMELHO"/>
+<exported element="/Controle_Carros/Cor.buc|org.eventb.core.contextFile#Cor|org.eventb.core.carrierSet#+" name="COR"/>
+<exported element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#:" name="si_verde"/>
+<exported element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.variable#1" name="a"/>
+<exported element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.variable#3" name="c"/>
+<exported element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#'" name="INITIALISATION"/>
+<exported element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.variable#," name="sc"/>
+<exported element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#7" name="cont_out"/>
+<exported element="/Controle_Carros/Contexto.buc|org.eventb.core.contextFile#Contexto|org.eventb.core.constant#'" name="d"/>
+<exported element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#9" name="sc_verde"/>
+<exported element="/Controle_Carros/Cor.buc|org.eventb.core.contextFile#Cor|org.eventb.core.constant#*" name="VERDE"/>
+<exported element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.variable#2" name="b"/>
+<exported element="/Controle_Carros/MaquinaR1.bum|org.eventb.core.machineFile#MaquinaR1" name="MaquinaR1"/>
+<exported element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2|org.eventb.core.event#6" name="ilha_in"/>
+<exported element="/Controle_Carros/MaquinaR2.bum|org.eventb.core.machineFile#MaquinaR2" name="MaquinaR2"/>
+</export>
+<export file="/Controle_Carros/Maquina.bum">
+<exported element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina" name="Maquina"/>
+<exported element="/Controle_Carros/Contexto.buc|org.eventb.core.contextFile#Contexto" name="Contexto"/>
+<exported element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#-" name="cont_in"/>
+<exported element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#'" name="INITIALISATION"/>
+<exported element="/Controle_Carros/Contexto.buc|org.eventb.core.contextFile#Contexto|org.eventb.core.constant#'" name="d"/>
+<exported element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.event#," name="cont_out"/>
+<exported element="/Controle_Carros/Maquina.bum|org.eventb.core.machineFile#Maquina|org.eventb.core.variable#)" name="n"/>
+</export>
+</export_table>
+<graph is_sorted="true">
+<node label="/Controle_Carros/Contexto.buc" mark="false" order_pos="0"/>
+<node label="/Controle_Carros/Cor.buc" mark="false" order_pos="1"/>
+<node label="/Controle_Carros/Maquina.bum" mark="false" order_pos="2">
+<predecessor label="/Controle_Carros/Contexto.buc"/>
+</node>
+<node label="/Controle_Carros/MaquinaR1.bum" mark="false" order_pos="3">
+<predecessor label="/Controle_Carros/Contexto.buc"/>
+<predecessor label="/Controle_Carros/Maquina.bum"/>
+</node>
+<node label="/Controle_Carros/MaquinaR2.bum" mark="false" order_pos="4">
+<predecessor label="/Controle_Carros/Contexto.buc"/>
+<predecessor label="/Controle_Carros/MaquinaR1.bum"/>
+<predecessor label="/Controle_Carros/Cor.buc"/>
+</node>
+</graph>
+<unprocessed file="/Controle_Carros/Maquina.bcm"/>
+<unprocessed file="/Controle_Carros/Maquina.bpo"/>
+<unprocessed file="/Controle_Carros/Maquina.bpr"/>
+<unprocessed file="/Controle_Carros/Maquina.bps"/>
+<unprocessed file="/Controle_Carros/Contexto.bcc"/>
+<unprocessed file="/Controle_Carros/Contexto.bpo"/>
+<unprocessed file="/Controle_Carros/Contexto.bpr"/>
+<unprocessed file="/Controle_Carros/Contexto.bps"/>
+<unprocessed file="/Controle_Carros/MaquinaR1.bcm"/>
+<unprocessed file="/Controle_Carros/MaquinaR1.bpo"/>
+<unprocessed file="/Controle_Carros/MaquinaR1.bpr"/>
+<unprocessed file="/Controle_Carros/MaquinaR1.bps"/>
+<unprocessed file="/Controle_Carros/Cor.bcc"/>
+<unprocessed file="/Controle_Carros/Cor.bpo"/>
+<unprocessed file="/Controle_Carros/Cor.bpr"/>
+<unprocessed file="/Controle_Carros/Cor.bps"/>
+<unprocessed file="/Controle_Carros/MaquinaR2.bcm"/>
+<unprocessed file="/Controle_Carros/MaquinaR2.bpo"/>
+<unprocessed file="/Controle_Carros/MaquinaR2.bpr"/>
+<unprocessed file="/Controle_Carros/MaquinaR2.bps"/>
+</pim>
+<pim project="/Carros_dois_refinamentos">
+<rodin_index>
+<descriptor element="/Carros_dois_refinamentos/C_inicial.buc|org.eventb.core.contextFile#C_inicial" name="C_inicial">
+<occurrence element="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.seesContext#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Carros_dois_refinamentos/C_inicial.buc|org.eventb.core.contextFile#C_inicial" kind="org.eventb.core.declaration"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.seesContext#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.seesContext#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variable#G" name="pass_cont">
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#B|org.eventb.core.action#-" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="9" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variant#K" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.expression" loc_char_end="9" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#C|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#L" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="7"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#&gt;|org.eventb.core.action#+" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="9" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#'|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="9" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variable#G" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#E|org.eventb.core.action#," kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="9" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#I" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#C" name="si_green">
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#C" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#3" name="cont_in">
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#@|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#?" name="ilha_out1">
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#?" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variable#;" name="b">
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#F|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="21"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#?|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#F|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#E|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="21"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#&gt;|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#F|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#?|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#B|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#C|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#?|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variable#;" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variable#," name="si">
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#'|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#?|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#C|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variable#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#F|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#M" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#B|org.eventb.core.action#+" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#C|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#F|org.eventb.core.action#," kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#D" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="9"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variable#+" name="b">
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#5|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variable#;" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variable#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#5|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="15"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="32" loc_char_start="31"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variant#6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.expression" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/C_semaforos.buc|org.eventb.core.contextFile#C_semaforos|org.eventb.core.carrierSet#'" name="COLOR">
+<occurrence element="/Carros_dois_refinamentos/C_semaforos.buc|org.eventb.core.contextFile#C_semaforos|org.eventb.core.carrierSet#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Carros_dois_refinamentos/C_semaforos.buc|org.eventb.core.contextFile#C_semaforos|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="5"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="5"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.variable#(" name="n">
+<occurrence element="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.invariant#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.event#.|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.event#,|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.event#-|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.event#-|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.event#-|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.event#,|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="6"/>
+<occurrence element="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.variable#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.event#,|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.invariant#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.invariant#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.invariant#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="8"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#F" name="ilha_out2">
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#F" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.event#," name="cont_out">
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.event#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4" name="ilha_out">
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#?|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#F|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#B" name="sc_green">
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#B" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/C_inicial.buc|org.eventb.core.contextFile#C_inicial|org.eventb.core.constant#'" name="d">
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#B|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.invariant#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="17"/>
+<occurrence element="/Carros_dois_refinamentos/C_inicial.buc|org.eventb.core.contextFile#C_inicial|org.eventb.core.axiom#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.event#,|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#E|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="6"/>
+<occurrence element="/Carros_dois_refinamentos/C_inicial.buc|org.eventb.core.contextFile#C_inicial|org.eventb.core.axiom#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.invariant#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="24" loc_char_start="23"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#&gt;|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="6"/>
+<occurrence element="/Carros_dois_refinamentos/C_inicial.buc|org.eventb.core.contextFile#C_inicial|org.eventb.core.constant#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#&gt;" name="cont_out1">
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#&gt;" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/C_semaforos.buc|org.eventb.core.contextFile#C_semaforos|org.eventb.core.constant#(" name="green">
+<occurrence element="/Carros_dois_refinamentos/C_semaforos.buc|org.eventb.core.contextFile#C_semaforos|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#?|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="3"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="5"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#B|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="3"/>
+<occurrence element="/Carros_dois_refinamentos/C_semaforos.buc|org.eventb.core.contextFile#C_semaforos|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="7"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#C|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="3"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="5"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#&gt;|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="3"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#F|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="3"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#E|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="3"/>
+<occurrence element="/Carros_dois_refinamentos/C_semaforos.buc|org.eventb.core.contextFile#C_semaforos|org.eventb.core.constant#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variable#," name="c">
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#3|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="6"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="21"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variable#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#3|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variable#=" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#3|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variable#:" name="a">
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#&gt;|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="13"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#E|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#B|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#C|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#&gt;|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variable#:" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#E|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#E|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="20" loc_char_start="19"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#&gt;|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#'" name="INITIALISATION">
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variable#*" name="a">
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#5|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variable#:" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="8"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="13"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="36" loc_char_start="35"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variant#6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.expression" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#5|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#5|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variable#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#E" name="cont_out2">
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#E" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#5" name="ilha_in">
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#5" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#A|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/C_semaforos.buc|org.eventb.core.contextFile#C_semaforos" name="C_semaforos">
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.seesContext#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Carros_dois_refinamentos/C_semaforos.buc|org.eventb.core.contextFile#C_semaforos" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#A" name="ilha_in">
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#A" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.event#." name="INITIALISATION">
+<occurrence element="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.event#." kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variable#=" name="c">
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#?|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#F|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#B|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variable#=" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#?|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="13"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#F|org.eventb.core.action#+" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1" name="M1">
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1" kind="org.eventb.core.declaration"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.refinesMachine#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/C_semaforos.buc|org.eventb.core.contextFile#C_semaforos|org.eventb.core.constant#)" name="red">
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#E|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="3"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#B|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="3"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#C|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="3"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#D" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="3"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#D" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="12"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#F|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="3"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#'|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="3"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#B|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="3"/>
+<occurrence element="/Carros_dois_refinamentos/C_semaforos.buc|org.eventb.core.contextFile#C_semaforos|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="8"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#'|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="3"/>
+<occurrence element="/Carros_dois_refinamentos/C_semaforos.buc|org.eventb.core.contextFile#C_semaforos|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="13"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#C|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="3"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#L" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="3"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#M" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="3"/>
+<occurrence element="/Carros_dois_refinamentos/C_semaforos.buc|org.eventb.core.contextFile#C_semaforos|org.eventb.core.constant#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variable#H" name="pass_ilha">
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#?|org.eventb.core.action#," kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="9" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#B|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#M" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="7"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#J" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variant#K" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.expression" loc_char_end="19" loc_char_start="10"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#'|org.eventb.core.action#+" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="9" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#F|org.eventb.core.action#-" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="9" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#C|org.eventb.core.action#-" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="9" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variable#H" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'" name="INITIALISATION">
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2" name="cont_out">
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#E|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#&gt;|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.event#-" name="cont_in">
+<occurrence element="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.event#-" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#3|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2" name="M2">
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#@" name="cont_in">
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#@" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial" name="M_inicial">
+<occurrence element="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial" kind="org.eventb.core.declaration"/>
+<occurrence element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.refinesMachine#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variable#-" name="sc">
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#L" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#E|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#B|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#D" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#C|org.eventb.core.action#+" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#E|org.eventb.core.action#+" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#'|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#&gt;|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#B|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variable#-" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+</rodin_index>
+<export_table>
+<export file="/Carros_dois_refinamentos/C_inicial.buc">
+<exported element="/Carros_dois_refinamentos/C_inicial.buc|org.eventb.core.contextFile#C_inicial|org.eventb.core.constant#'" name="d"/>
+<exported element="/Carros_dois_refinamentos/C_inicial.buc|org.eventb.core.contextFile#C_inicial" name="C_inicial"/>
+</export>
+<export file="/Carros_dois_refinamentos/C_semaforos.buc">
+<exported element="/Carros_dois_refinamentos/C_semaforos.buc|org.eventb.core.contextFile#C_semaforos|org.eventb.core.carrierSet#'" name="COLOR"/>
+<exported element="/Carros_dois_refinamentos/C_semaforos.buc|org.eventb.core.contextFile#C_semaforos" name="C_semaforos"/>
+<exported element="/Carros_dois_refinamentos/C_semaforos.buc|org.eventb.core.contextFile#C_semaforos|org.eventb.core.constant#(" name="green"/>
+<exported element="/Carros_dois_refinamentos/C_semaforos.buc|org.eventb.core.contextFile#C_semaforos|org.eventb.core.constant#)" name="red"/>
+</export>
+<export file="/Carros_dois_refinamentos/M1.bum">
+<exported element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1" name="M1"/>
+<exported element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'" name="INITIALISATION"/>
+<exported element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variable#*" name="a"/>
+<exported element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variable#+" name="b"/>
+<exported element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variable#," name="c"/>
+<exported element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#3" name="cont_in"/>
+<exported element="/Carros_dois_refinamentos/C_inicial.buc|org.eventb.core.contextFile#C_inicial|org.eventb.core.constant#'" name="d"/>
+<exported element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2" name="cont_out"/>
+<exported element="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial" name="M_inicial"/>
+<exported element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4" name="ilha_out"/>
+<exported element="/Carros_dois_refinamentos/C_inicial.buc|org.eventb.core.contextFile#C_inicial" name="C_inicial"/>
+<exported element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#5" name="ilha_in"/>
+</export>
+<export file="/Carros_dois_refinamentos/M_inicial.bum">
+<exported element="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.event#." name="INITIALISATION"/>
+<exported element="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.event#-" name="cont_in"/>
+<exported element="/Carros_dois_refinamentos/C_inicial.buc|org.eventb.core.contextFile#C_inicial|org.eventb.core.constant#'" name="d"/>
+<exported element="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.event#," name="cont_out"/>
+<exported element="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial" name="M_inicial"/>
+<exported element="/Carros_dois_refinamentos/C_inicial.buc|org.eventb.core.contextFile#C_inicial" name="C_inicial"/>
+<exported element="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial|org.eventb.core.variable#(" name="n"/>
+</export>
+<export file="/Carros_dois_refinamentos/M2.bum">
+<exported element="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1" name="M1"/>
+<exported element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variable#H" name="pass_ilha"/>
+<exported element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variable#," name="si"/>
+<exported element="/Carros_dois_refinamentos/M_inicial.bum|org.eventb.core.machineFile#M_inicial" name="M_inicial"/>
+<exported element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#F" name="ilha_out2"/>
+<exported element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variable#-" name="sc"/>
+<exported element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variable#=" name="c"/>
+<exported element="/Carros_dois_refinamentos/C_inicial.buc|org.eventb.core.contextFile#C_inicial|org.eventb.core.constant#'" name="d"/>
+<exported element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#@" name="cont_in"/>
+<exported element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2" name="M2"/>
+<exported element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#E" name="cont_out2"/>
+<exported element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#?" name="ilha_out1"/>
+<exported element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variable#:" name="a"/>
+<exported element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#&gt;" name="cont_out1"/>
+<exported element="/Carros_dois_refinamentos/C_semaforos.buc|org.eventb.core.contextFile#C_semaforos" name="C_semaforos"/>
+<exported element="/Carros_dois_refinamentos/C_semaforos.buc|org.eventb.core.contextFile#C_semaforos|org.eventb.core.constant#)" name="red"/>
+<exported element="/Carros_dois_refinamentos/C_semaforos.buc|org.eventb.core.contextFile#C_semaforos|org.eventb.core.constant#(" name="green"/>
+<exported element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variable#;" name="b"/>
+<exported element="/Carros_dois_refinamentos/C_semaforos.buc|org.eventb.core.contextFile#C_semaforos|org.eventb.core.carrierSet#'" name="COLOR"/>
+<exported element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#A" name="ilha_in"/>
+<exported element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#C" name="si_green"/>
+<exported element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variable#G" name="pass_cont"/>
+<exported element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#'" name="INITIALISATION"/>
+<exported element="/Carros_dois_refinamentos/C_inicial.buc|org.eventb.core.contextFile#C_inicial" name="C_inicial"/>
+<exported element="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#B" name="sc_green"/>
+</export>
+</export_table>
+<graph is_sorted="true">
+<node label="/Carros_dois_refinamentos/C_inicial.buc" mark="false" order_pos="0"/>
+<node label="/Carros_dois_refinamentos/C_semaforos.buc" mark="false" order_pos="1"/>
+<node label="/Carros_dois_refinamentos/M_inicial.bum" mark="false" order_pos="2">
+<predecessor label="/Carros_dois_refinamentos/C_inicial.buc"/>
+</node>
+<node label="/Carros_dois_refinamentos/M1.bum" mark="false" order_pos="3">
+<predecessor label="/Carros_dois_refinamentos/C_inicial.buc"/>
+<predecessor label="/Carros_dois_refinamentos/M_inicial.bum"/>
+</node>
+<node label="/Carros_dois_refinamentos/M2.bum" mark="false" order_pos="4">
+<predecessor label="/Carros_dois_refinamentos/C_inicial.buc"/>
+<predecessor label="/Carros_dois_refinamentos/C_semaforos.buc"/>
+<predecessor label="/Carros_dois_refinamentos/M1.bum"/>
+</node>
+</graph>
+<unprocessed file="/Carros_dois_refinamentos/C_inicial.bcc"/>
+<unprocessed file="/Carros_dois_refinamentos/C_inicial.bpo"/>
+<unprocessed file="/Carros_dois_refinamentos/C_inicial.bpr"/>
+<unprocessed file="/Carros_dois_refinamentos/C_inicial.bps"/>
+<unprocessed file="/Carros_dois_refinamentos/C_semaforos.bcc"/>
+<unprocessed file="/Carros_dois_refinamentos/C_semaforos.bpo"/>
+<unprocessed file="/Carros_dois_refinamentos/C_semaforos.bpr"/>
+<unprocessed file="/Carros_dois_refinamentos/C_semaforos.bps"/>
+<unprocessed file="/Carros_dois_refinamentos/M1.bcm"/>
+<unprocessed file="/Carros_dois_refinamentos/M1.bpo"/>
+<unprocessed file="/Carros_dois_refinamentos/M1.bpr"/>
+<unprocessed file="/Carros_dois_refinamentos/M1.bps"/>
+<unprocessed file="/Carros_dois_refinamentos/M2.bcm"/>
+<unprocessed file="/Carros_dois_refinamentos/M2.bpo"/>
+<unprocessed file="/Carros_dois_refinamentos/M2.bpr"/>
+<unprocessed file="/Carros_dois_refinamentos/M2.bps"/>
+<unprocessed file="/Carros_dois_refinamentos/M_inicial.bcm"/>
+<unprocessed file="/Carros_dois_refinamentos/M_inicial.bpo"/>
+<unprocessed file="/Carros_dois_refinamentos/M_inicial.bpr"/>
+<unprocessed file="/Carros_dois_refinamentos/M_inicial.bps"/>
+</pim>
+<delta_list/>
+<indexer_registry>
+<registry_entry element_type="org.eventb.core.machineFile">
+<indexer id="machineIndexer"/>
+</registry_entry>
+<registry_entry element_type="org.eventb.core.contextFile">
+<indexer id="contextIndexer"/>
+</registry_entry>
+</indexer_registry>
+</index_root>

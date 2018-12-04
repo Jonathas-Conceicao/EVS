@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scContextFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd">
+<org.eventb.core.scAxiom name="'" org.eventb.core.label="axm2_1" org.eventb.core.predicate="COLOR={green,red}" org.eventb.core.source="/Carros_dois_refinamentos/C_semaforos.buc|org.eventb.core.contextFile#C_semaforos|org.eventb.core.axiom#*" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="(" org.eventb.core.label="axm2_2" org.eventb.core.predicate="green≠red" org.eventb.core.source="/Carros_dois_refinamentos/C_semaforos.buc|org.eventb.core.contextFile#C_semaforos|org.eventb.core.axiom#+" org.eventb.core.theorem="false"/>
+<org.eventb.core.scCarrierSet name="COLOR" org.eventb.core.source="/Carros_dois_refinamentos/C_semaforos.buc|org.eventb.core.contextFile#C_semaforos|org.eventb.core.carrierSet#'" org.eventb.core.type="ℙ(COLOR)"/>
+<org.eventb.core.scConstant name="green" org.eventb.core.source="/Carros_dois_refinamentos/C_semaforos.buc|org.eventb.core.contextFile#C_semaforos|org.eventb.core.constant#(" org.eventb.core.type="COLOR"/>
+<org.eventb.core.scConstant name="red" org.eventb.core.source="/Carros_dois_refinamentos/C_semaforos.buc|org.eventb.core.contextFile#C_semaforos|org.eventb.core.constant#)" org.eventb.core.type="COLOR"/>
+</org.eventb.core.scContextFile>
