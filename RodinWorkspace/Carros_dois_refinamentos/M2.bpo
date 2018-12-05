@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.poFile org.eventb.core.poStamp="44">
+<org.eventb.core.poFile org.eventb.core.poStamp="47">
 <org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="41">
 <org.eventb.core.poIdentifier name="d" org.eventb.core.type="ℤ"/>
 <org.eventb.core.poPredicate name="e" org.eventb.core.predicate="d∈ℕ" org.eventb.core.source="/Carros_dois_refinamentos/C_inicial.buc|org.eventb.core.contextFile#C_inicial|org.eventb.core.axiom#("/>
@@ -29,97 +29,76 @@
 <org.eventb.core.poPredicate name="pass_ilhi" org.eventb.core.predicate="a=0∨c=0" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#1"/>
 <org.eventb.core.poPredicate name="pass_ilhj" org.eventb.core.predicate="0&lt;c∨0&lt;a∨(a+b&lt;d∧c=0)∨(0&lt;b∧a=0)" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#7"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poSequent name="INITIALISATION/inv2_3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp)"/>
+<org.eventb.core.poSequent name="inv2_deadlock/THM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Theorem" org.eventb.core.poStamp="45">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\|"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="(sc=green∧a+b+1&lt;d)∨(sc=green∧a+b+1=d)∨(si=green∧b≠1)∨(si=green∧b=1)∨(sc=red∧c=0∧a+b&lt;d∧pass_ilha=1)∨(si=red∧a=0∧b&gt;0∧pass_cont=1)∨0&lt;c∨0&lt;a" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#N"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#N"/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\|"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv2_3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp'"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="red=green⇒0=0∧0+0&lt;d" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#0"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#'"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#0"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#INITIALISATION\/inv2_3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD2"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD2"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="INITIALISATION/inv2_4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp)"/>
+<org.eventb.core.poSequent name="INITIALISATION/inv2_4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp'"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="red=green⇒0=0∧0&lt;0" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#1"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#'"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#1"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#INITIALISATION\/inv2_4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD3"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD3"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="INITIALISATION/inv2_5/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp)"/>
+<org.eventb.core.poSequent name="INITIALISATION/inv2_5/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp'"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="red=red∨red=red" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#D"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#'"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#D"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#INITIALISATION\/inv2_5\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD4"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD4"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="INITIALISATION/inv2_6/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp)"/>
+<org.eventb.core.poSequent name="INITIALISATION/inv2_6/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp'"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="1∈{0,1}" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#I"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#'"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#I"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#INITIALISATION\/inv2_6\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD5"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD5"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="INITIALISATION/inv2_7/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp)"/>
+<org.eventb.core.poSequent name="INITIALISATION/inv2_7/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp'"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="1∈{0,1}" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#J"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#'"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#J"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#INITIALISATION\/inv2_7\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD6"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD6"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="INITIALISATION/inv2_8/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp)"/>
+<org.eventb.core.poSequent name="INITIALISATION/inv2_8/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp'"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="red=red⇒1=1" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#L"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#'"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#L"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#INITIALISATION\/inv2_8\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD7"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD7"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="INITIALISATION/inv2_9/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp)"/>
+<org.eventb.core.poSequent name="INITIALISATION/inv2_9/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp'"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="red=red⇒1=1" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#M"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#'"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#M"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#INITIALISATION\/inv2_9\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD8"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD8"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="INITIALISATION/inv2_deadlock/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp)"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="(red=green∧0+0+1&lt;d)∨(red=green∧0+0+1=d)∨(red=green∧0≠1)∨(red=green∧0=1)∨(red=red∧0=0∧0+0&lt;d∧1=1)∨(red=red∧0=0∧0&gt;0∧1=1)∨0&lt;0∨0&lt;0" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#N"/>
-<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'"/>
-<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#'"/>
-<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#N"/>
-<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#INITIALISATION\/inv2_deadlock\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD9"/>
-</org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="INITIALISATION/inv2_trd_exc_si/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp)"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="red=green⇔¬red=red" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#O"/>
-<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'"/>
-<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#'"/>
-<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#O"/>
-<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#INITIALISATION\/inv2_trd_exc_si\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD10"/>
-</org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="INITIALISATION/inv2_trd_exc_sc/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp)"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="red=green⇔¬red=red" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#P"/>
-<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'"/>
-<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#'"/>
-<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#P"/>
-<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#INITIALISATION\/inv2_trd_exc_sc\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD11"/>
-</org.eventb.core.poSequent>
-<org.eventb.core.poPredicateSet name="EVTIDENTC_semaforp)" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="44">
+<org.eventb.core.poPredicateSet name="EVTIDENTC_semaforp'" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
 <org.eventb.core.poIdentifier name="a'" org.eventb.core.type="ℤ"/>
 <org.eventb.core.poIdentifier name="sc'" org.eventb.core.type="COLOR"/>
 <org.eventb.core.poIdentifier name="b'" org.eventb.core.type="ℤ"/>
@@ -128,576 +107,456 @@
 <org.eventb.core.poIdentifier name="pass_ilha'" org.eventb.core.type="ℤ"/>
 <org.eventb.core.poIdentifier name="si'" org.eventb.core.type="COLOR"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPC_semaforp)" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTIDENTC_semaforp)" org.eventb.core.poStamp="44"/>
-<org.eventb.core.poSequent name="cont_out1/inv2_3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp*"/>
+<org.eventb.core.poPredicateSet name="EVTALLHYPC_semaforp'" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTIDENTC_semaforp'" org.eventb.core.poStamp="0"/>
+<org.eventb.core.poSequent name="cont_out1/inv2_3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp("/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="sc=green⇒c=0∧(a+1)+b&lt;d" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#0"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#&gt;"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#0"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#cont_out1\/inv2_3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD2"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD2"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="cont_out1/inv2_4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp*"/>
+<org.eventb.core.poSequent name="cont_out1/inv2_4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp("/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="si=green⇒a+1=0∧0&lt;b" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#1"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#&gt;"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#1"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#cont_out1\/inv2_4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD3"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD3"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="cont_out1/inv2_6/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp*"/>
+<org.eventb.core.poSequent name="cont_out1/inv2_6/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp("/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="1∈{0,1}" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#I"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#&gt;"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#I"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#cont_out1\/inv2_6\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD5"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD5"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="cont_out1/inv2_8/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp*"/>
+<org.eventb.core.poSequent name="cont_out1/inv2_8/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp("/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="sc=red⇒1=1" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#L"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#&gt;"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#L"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#cont_out1\/inv2_8\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD7"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD7"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="cont_out1/inv2_deadlock/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp*"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="(sc=green∧(a+1)+b+1&lt;d)∨(sc=green∧(a+1)+b+1=d)∨(si=green∧b≠1)∨(si=green∧b=1)∨(sc=red∧c=0∧(a+1)+b&lt;d∧pass_ilha=1)∨(si=red∧a+1=0∧b&gt;0∧1=1)∨0&lt;c∨0&lt;a+1" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#N"/>
-<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2"/>
-<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#&gt;"/>
-<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#N"/>
-<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#cont_out1\/inv2_deadlock\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD9"/>
-</org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="cont_out1/grd1/GRD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Guard strengthening (split)" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp*"/>
+<org.eventb.core.poSequent name="cont_out1/grd1/GRD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Guard strengthening (split)" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp("/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="a+b&lt;d" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2|org.eventb.core.guard#("/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2|org.eventb.core.guard#("/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#&gt;"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#cont_out1\/grd1\/GRD|org.eventb.core.poPredicateSet#SEQHYP"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="cont_out1/grd2/GRD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Guard strengthening (split)" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp*"/>
+<org.eventb.core.poSequent name="cont_out1/grd2/GRD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Guard strengthening (split)" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp("/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="c=0" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2|org.eventb.core.guard#)"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2|org.eventb.core.guard#)"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#&gt;"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#cont_out1\/grd2\/GRD|org.eventb.core.poPredicateSet#SEQHYP"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poPredicateSet name="EVTIDENTC_semaforp*" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="44">
+<org.eventb.core.poPredicateSet name="EVTIDENTC_semaforp(" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
 <org.eventb.core.poIdentifier name="a'" org.eventb.core.type="ℤ"/>
 <org.eventb.core.poIdentifier name="pass_cont'" org.eventb.core.type="ℤ"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPC_semaforp*" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTIDENTC_semaforp*" org.eventb.core.poStamp="44">
+<org.eventb.core.poPredicateSet name="EVTALLHYPC_semaforp(" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTIDENTC_semaforp(" org.eventb.core.poStamp="0">
 <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="sc=green" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#&gt;|org.eventb.core.guard#("/>
 <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="a+b+1&lt;d" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#&gt;|org.eventb.core.guard#*"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poSequent name="cont_out2/inv2_3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp+"/>
+<org.eventb.core.poSequent name="cont_out2/inv2_3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp)"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="red=green⇒c=0∧(a+1)+b&lt;d" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#0"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#E"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#0"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#cont_out2\/inv2_3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD2"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD2"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="cont_out2/inv2_4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp+"/>
+<org.eventb.core.poSequent name="cont_out2/inv2_4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp)"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="si=green⇒a+1=0∧0&lt;b" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#1"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#E"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#1"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#cont_out2\/inv2_4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD3"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD3"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="cont_out2/inv2_5/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp+"/>
+<org.eventb.core.poSequent name="cont_out2/inv2_5/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp)"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="red=red∨si=red" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#D"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#E"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#D"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#cont_out2\/inv2_5\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD4"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD4"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="cont_out2/inv2_6/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp+"/>
+<org.eventb.core.poSequent name="cont_out2/inv2_6/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp)"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="1∈{0,1}" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#I"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#E"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#I"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#cont_out2\/inv2_6\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD5"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD5"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="cont_out2/inv2_8/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp+"/>
+<org.eventb.core.poSequent name="cont_out2/inv2_8/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp)"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="red=red⇒1=1" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#L"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#E"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#L"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#cont_out2\/inv2_8\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD7"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD7"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="cont_out2/inv2_deadlock/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp+"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="(red=green∧(a+1)+b+1&lt;d)∨(red=green∧(a+1)+b+1=d)∨(si=green∧b≠1)∨(si=green∧b=1)∨(red=red∧c=0∧(a+1)+b&lt;d∧pass_ilha=1)∨(si=red∧a+1=0∧b&gt;0∧1=1)∨0&lt;c∨0&lt;a+1" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#N"/>
-<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2"/>
-<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#E"/>
-<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#N"/>
-<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#cont_out2\/inv2_deadlock\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD9"/>
-</org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="cont_out2/inv2_trd_exc_sc/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp+"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="red=green⇔¬red=red" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#P"/>
-<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2"/>
-<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#E"/>
-<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#P"/>
-<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#cont_out2\/inv2_trd_exc_sc\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD11"/>
-</org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="cont_out2/grd1/GRD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Guard strengthening (split)" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp+"/>
+<org.eventb.core.poSequent name="cont_out2/grd1/GRD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Guard strengthening (split)" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp)"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="a+b&lt;d" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2|org.eventb.core.guard#("/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2|org.eventb.core.guard#("/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#E"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#cont_out2\/grd1\/GRD|org.eventb.core.poPredicateSet#SEQHYP"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="cont_out2/grd2/GRD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Guard strengthening (split)" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp+"/>
+<org.eventb.core.poSequent name="cont_out2/grd2/GRD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Guard strengthening (split)" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp)"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="c=0" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2|org.eventb.core.guard#)"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2|org.eventb.core.guard#)"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#E"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#cont_out2\/grd2\/GRD|org.eventb.core.poPredicateSet#SEQHYP"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poPredicateSet name="EVTIDENTC_semaforp+" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="44">
+<org.eventb.core.poPredicateSet name="EVTIDENTC_semaforp)" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="47">
 <org.eventb.core.poIdentifier name="a'" org.eventb.core.type="ℤ"/>
 <org.eventb.core.poIdentifier name="sc'" org.eventb.core.type="COLOR"/>
 <org.eventb.core.poIdentifier name="pass_cont'" org.eventb.core.type="ℤ"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPC_semaforp+" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTIDENTC_semaforp+" org.eventb.core.poStamp="44">
+<org.eventb.core.poPredicateSet name="EVTALLHYPC_semaforp)" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTIDENTC_semaforp)" org.eventb.core.poStamp="47">
 <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="sc=green" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#E|org.eventb.core.guard#("/>
 <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="a+b+1=d" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#E|org.eventb.core.guard#)"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poSequent name="ilha_out1/inv2_3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp,"/>
+<org.eventb.core.poSequent name="ilha_out1/inv2_3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp*"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="sc=green⇒c+1=0∧a+(b − 1)&lt;d" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#0"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#?"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#0"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#ilha_out1\/inv2_3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD2"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD2"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="ilha_out1/inv2_4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp,"/>
+<org.eventb.core.poSequent name="ilha_out1/inv2_4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp*"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="si=green⇒a=0∧0&lt;b − 1" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#1"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#?"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#1"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#ilha_out1\/inv2_4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD3"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD3"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="ilha_out1/inv2_7/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp,"/>
+<org.eventb.core.poSequent name="ilha_out1/inv2_7/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp*"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="1∈{0,1}" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#J"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#?"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#J"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#ilha_out1\/inv2_7\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD6"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD6"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="ilha_out1/inv2_9/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp,"/>
+<org.eventb.core.poSequent name="ilha_out1/inv2_9/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp*"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="si=red⇒1=1" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#M"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#?"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#M"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#ilha_out1\/inv2_9\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD8"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD8"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="ilha_out1/inv2_deadlock/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp,"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="(sc=green∧a+(b − 1)+1&lt;d)∨(sc=green∧a+(b − 1)+1=d)∨(si=green∧b − 1≠1)∨(si=green∧b − 1=1)∨(sc=red∧c+1=0∧a+(b − 1)&lt;d∧1=1)∨(si=red∧a=0∧b − 1&gt;0∧pass_cont=1)∨0&lt;c+1∨0&lt;a" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#N"/>
-<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4"/>
-<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#?"/>
-<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#N"/>
-<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#ilha_out1\/inv2_deadlock\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD9"/>
-</org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="ilha_out1/grd1/GRD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Guard strengthening (split)" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp,"/>
+<org.eventb.core.poSequent name="ilha_out1/grd1/GRD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Guard strengthening (split)" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp*"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0&lt;b" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4|org.eventb.core.guard#)"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4|org.eventb.core.guard#)"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#?"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#ilha_out1\/grd1\/GRD|org.eventb.core.poPredicateSet#SEQHYP"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="ilha_out1/grd2/GRD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Guard strengthening (split)" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp,"/>
+<org.eventb.core.poSequent name="ilha_out1/grd2/GRD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Guard strengthening (split)" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp*"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="a=0" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4|org.eventb.core.guard#*"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4|org.eventb.core.guard#*"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#?"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#ilha_out1\/grd2\/GRD|org.eventb.core.poPredicateSet#SEQHYP"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poPredicateSet name="EVTIDENTC_semaforp," org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="44">
+<org.eventb.core.poPredicateSet name="EVTIDENTC_semaforp*" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="47">
 <org.eventb.core.poIdentifier name="b'" org.eventb.core.type="ℤ"/>
 <org.eventb.core.poIdentifier name="c'" org.eventb.core.type="ℤ"/>
 <org.eventb.core.poIdentifier name="pass_ilha'" org.eventb.core.type="ℤ"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPC_semaforp," org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTIDENTC_semaforp," org.eventb.core.poStamp="44">
+<org.eventb.core.poPredicateSet name="EVTALLHYPC_semaforp*" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTIDENTC_semaforp*" org.eventb.core.poStamp="47">
 <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="si=green" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#?|org.eventb.core.guard#("/>
 <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="b≠1" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#?|org.eventb.core.guard#+"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poSequent name="ilha_out2/inv2_3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp-"/>
+<org.eventb.core.poSequent name="ilha_out2/inv2_3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp+"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="sc=green⇒c+1=0∧a+(b − 1)&lt;d" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#0"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#F"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#0"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#ilha_out2\/inv2_3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD2"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD2"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="ilha_out2/inv2_4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp-"/>
+<org.eventb.core.poSequent name="ilha_out2/inv2_4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp+"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="red=green⇒a=0∧0&lt;b − 1" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#1"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#F"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#1"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#ilha_out2\/inv2_4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD3"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD3"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="ilha_out2/inv2_5/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp-"/>
+<org.eventb.core.poSequent name="ilha_out2/inv2_5/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp+"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="sc=red∨red=red" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#D"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#F"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#D"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#ilha_out2\/inv2_5\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD4"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD4"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="ilha_out2/inv2_7/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp-"/>
+<org.eventb.core.poSequent name="ilha_out2/inv2_7/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp+"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="1∈{0,1}" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#J"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#F"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#J"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#ilha_out2\/inv2_7\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD6"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD6"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="ilha_out2/inv2_9/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp-"/>
+<org.eventb.core.poSequent name="ilha_out2/inv2_9/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp+"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="red=red⇒1=1" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#M"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#F"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#M"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#ilha_out2\/inv2_9\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD8"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD8"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="ilha_out2/inv2_deadlock/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp-"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="(sc=green∧a+(b − 1)+1&lt;d)∨(sc=green∧a+(b − 1)+1=d)∨(red=green∧b − 1≠1)∨(red=green∧b − 1=1)∨(sc=red∧c+1=0∧a+(b − 1)&lt;d∧1=1)∨(red=red∧a=0∧b − 1&gt;0∧pass_cont=1)∨0&lt;c+1∨0&lt;a" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#N"/>
-<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4"/>
-<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#F"/>
-<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#N"/>
-<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#ilha_out2\/inv2_deadlock\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD9"/>
-</org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="ilha_out2/inv2_trd_exc_si/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp-"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="red=green⇔¬red=red" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#O"/>
-<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4"/>
-<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#F"/>
-<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#O"/>
-<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#ilha_out2\/inv2_trd_exc_si\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD10"/>
-</org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="ilha_out2/grd1/GRD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Guard strengthening (split)" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp-"/>
+<org.eventb.core.poSequent name="ilha_out2/grd1/GRD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Guard strengthening (split)" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp+"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0&lt;b" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4|org.eventb.core.guard#)"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4|org.eventb.core.guard#)"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#F"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#ilha_out2\/grd1\/GRD|org.eventb.core.poPredicateSet#SEQHYP"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="ilha_out2/grd2/GRD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Guard strengthening (split)" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp-"/>
+<org.eventb.core.poSequent name="ilha_out2/grd2/GRD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Guard strengthening (split)" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp+"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="a=0" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4|org.eventb.core.guard#*"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4|org.eventb.core.guard#*"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#F"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#ilha_out2\/grd2\/GRD|org.eventb.core.poPredicateSet#SEQHYP"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poPredicateSet name="EVTIDENTC_semaforp-" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="44">
+<org.eventb.core.poPredicateSet name="EVTIDENTC_semaforp+" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="47">
 <org.eventb.core.poIdentifier name="b'" org.eventb.core.type="ℤ"/>
 <org.eventb.core.poIdentifier name="c'" org.eventb.core.type="ℤ"/>
 <org.eventb.core.poIdentifier name="pass_ilha'" org.eventb.core.type="ℤ"/>
 <org.eventb.core.poIdentifier name="si'" org.eventb.core.type="COLOR"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPC_semaforp-" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTIDENTC_semaforp-" org.eventb.core.poStamp="44">
+<org.eventb.core.poPredicateSet name="EVTALLHYPC_semaforp+" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTIDENTC_semaforp+" org.eventb.core.poStamp="47">
 <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="si=green" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#F|org.eventb.core.guard#("/>
 <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="b=1" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#F|org.eventb.core.guard#)"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poSequent name="cont_in/inv2_3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp."/>
+<org.eventb.core.poSequent name="cont_in/inv2_3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp,"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="sc=green⇒c − 1=0∧a+b&lt;d" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#0"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#3"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#@"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#0"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#cont_in\/inv2_3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD2"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD2"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="cont_in/inv2_deadlock/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp."/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="(sc=green∧a+b+1&lt;d)∨(sc=green∧a+b+1=d)∨(si=green∧b≠1)∨(si=green∧b=1)∨(sc=red∧c − 1=0∧a+b&lt;d∧pass_ilha=1)∨(si=red∧a=0∧b&gt;0∧pass_cont=1)∨0&lt;c − 1∨0&lt;a" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#N"/>
-<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#3"/>
-<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#@"/>
-<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#N"/>
-<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#cont_in\/inv2_deadlock\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD9"/>
-</org.eventb.core.poSequent>
-<org.eventb.core.poPredicateSet name="EVTIDENTC_semaforp." org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="44">
+<org.eventb.core.poPredicateSet name="EVTIDENTC_semaforp," org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="47">
 <org.eventb.core.poIdentifier name="c'" org.eventb.core.type="ℤ"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPC_semaforp." org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTIDENTC_semaforp." org.eventb.core.poStamp="44">
+<org.eventb.core.poPredicateSet name="EVTALLHYPC_semaforp," org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTIDENTC_semaforp," org.eventb.core.poStamp="47">
 <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="0&lt;c" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#3|org.eventb.core.guard#("/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poSequent name="ilha_in/inv2_3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp\/"/>
+<org.eventb.core.poSequent name="ilha_in/inv2_3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp-"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="sc=green⇒c=0∧a − 1+(b+1)&lt;d" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#0"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#5"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#A"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#0"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#ilha_in\/inv2_3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD2"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD2"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="ilha_in/inv2_4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp\/"/>
+<org.eventb.core.poSequent name="ilha_in/inv2_4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp-"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="si=green⇒a − 1=0∧0&lt;b+1" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#1"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#5"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#A"/>
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#1"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#ilha_in\/inv2_4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD3"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD3"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="ilha_in/inv2_deadlock/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp\/"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="(sc=green∧a − 1+(b+1)+1&lt;d)∨(sc=green∧a − 1+(b+1)+1=d)∨(si=green∧b+1≠1)∨(si=green∧b+1=1)∨(sc=red∧c=0∧a − 1+(b+1)&lt;d∧pass_ilha=1)∨(si=red∧a − 1=0∧b+1&gt;0∧pass_cont=1)∨0&lt;c∨0&lt;a − 1" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#N"/>
-<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#5"/>
-<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#A"/>
-<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#N"/>
-<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#ilha_in\/inv2_deadlock\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD9"/>
-</org.eventb.core.poSequent>
-<org.eventb.core.poPredicateSet name="EVTIDENTC_semaforp/" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="44">
+<org.eventb.core.poPredicateSet name="EVTIDENTC_semaforp-" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="47">
 <org.eventb.core.poIdentifier name="a'" org.eventb.core.type="ℤ"/>
 <org.eventb.core.poIdentifier name="b'" org.eventb.core.type="ℤ"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPC_semaforp/" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTIDENTC_semaforp\/" org.eventb.core.poStamp="44">
+<org.eventb.core.poPredicateSet name="EVTALLHYPC_semaforp-" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTIDENTC_semaforp-" org.eventb.core.poStamp="47">
 <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="0&lt;a" org.eventb.core.source="/Carros_dois_refinamentos/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#5|org.eventb.core.guard#)"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poSequent name="sc_green/inv2_3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp0"/>
+<org.eventb.core.poSequent name="sc_green/inv2_3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp."/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="green=green⇒c=0∧a+b&lt;d" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#0"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#B"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#0"/>
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#sc_green\/inv2_3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD2"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD2"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="sc_green/inv2_4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp0"/>
+<org.eventb.core.poSequent name="sc_green/inv2_4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp."/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="red=green⇒a=0∧0&lt;b" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#1"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#B"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#1"/>
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#sc_green\/inv2_4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD3"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD3"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="sc_green/inv2_5/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp0"/>
+<org.eventb.core.poSequent name="sc_green/inv2_5/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp."/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="green=red∨red=red" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#D"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#B"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#D"/>
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#sc_green\/inv2_5\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD4"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD4"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="sc_green/inv2_6/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp0"/>
+<org.eventb.core.poSequent name="sc_green/inv2_6/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp."/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0∈{0,1}" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#I"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#B"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#I"/>
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#sc_green\/inv2_6\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD5"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD5"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="sc_green/inv2_8/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp0"/>
+<org.eventb.core.poSequent name="sc_green/inv2_8/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp."/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="green=red⇒0=1" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#L"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#B"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#L"/>
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#sc_green\/inv2_8\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD7"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD7"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="sc_green/inv2_9/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp0"/>
+<org.eventb.core.poSequent name="sc_green/inv2_9/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp."/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="red=red⇒pass_ilha=1" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#M"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#B"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#M"/>
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#sc_green\/inv2_9\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD8"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD8"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="sc_green/inv2_deadlock/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp0"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="(green=green∧a+b+1&lt;d)∨(green=green∧a+b+1=d)∨(red=green∧b≠1)∨(red=green∧b=1)∨(green=red∧c=0∧a+b&lt;d∧pass_ilha=1)∨(red=red∧a=0∧b&gt;0∧0=1)∨0&lt;c∨0&lt;a" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#N"/>
-<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#B"/>
-<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#N"/>
-<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#sc_green\/inv2_deadlock\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD9"/>
-</org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="sc_green/inv2_trd_exc_si/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp0"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="red=green⇔¬red=red" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#O"/>
-<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#B"/>
-<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#O"/>
-<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#sc_green\/inv2_trd_exc_si\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD10"/>
-</org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="sc_green/inv2_trd_exc_sc/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp0"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="green=green⇔¬green=red" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#P"/>
-<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#B"/>
-<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#P"/>
-<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#sc_green\/inv2_trd_exc_sc\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD11"/>
-</org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="sc_green/VAR" org.eventb.core.accurate="true" org.eventb.core.poDesc="Variant of event" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp0"/>
+<org.eventb.core.poSequent name="sc_green/VAR" org.eventb.core.accurate="true" org.eventb.core.poDesc="Variant of event" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp."/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0+pass_ilha&lt;pass_cont+pass_ilha" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variant#K"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variant#K"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#B"/>
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#sc_green\/VAR|org.eventb.core.poPredicateSet#SEQHYP"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="sc_green/NAT" org.eventb.core.accurate="true" org.eventb.core.poDesc="Natural number variant of event" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp0"/>
+<org.eventb.core.poSequent name="sc_green/NAT" org.eventb.core.accurate="true" org.eventb.core.poDesc="Natural number variant of event" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp."/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="pass_cont+pass_ilha∈ℕ" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variant#K"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variant#K"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#B"/>
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#sc_green\/NAT|org.eventb.core.poPredicateSet#SEQHYP"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poPredicateSet name="EVTIDENTC_semaforp0" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="EVTIDENTC_semaforp." org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="47">
 <org.eventb.core.poIdentifier name="sc'" org.eventb.core.type="COLOR"/>
 <org.eventb.core.poIdentifier name="pass_cont'" org.eventb.core.type="ℤ"/>
 <org.eventb.core.poIdentifier name="si'" org.eventb.core.type="COLOR"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPC_semaforp0" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTIDENTC_semaforp0" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="EVTALLHYPC_semaforp." org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTIDENTC_semaforp." org.eventb.core.poStamp="47">
 <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="sc=red" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#B|org.eventb.core.guard#'"/>
 <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="c=0" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#B|org.eventb.core.guard#("/>
 <org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="a+b&lt;d" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#B|org.eventb.core.guard#)"/>
 <org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="pass_ilha=1" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#B|org.eventb.core.guard#,"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poSequent name="si_green/inv2_3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp1"/>
+<org.eventb.core.poSequent name="si_green/inv2_3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp\/"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="red=green⇒c=0∧a+b&lt;d" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#0"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#C"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#0"/>
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#si_green\/inv2_3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD2"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD2"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="si_green/inv2_4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp1"/>
+<org.eventb.core.poSequent name="si_green/inv2_4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp\/"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="green=green⇒a=0∧0&lt;b" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#1"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#C"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#1"/>
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#si_green\/inv2_4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD3"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD3"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="si_green/inv2_5/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp1"/>
+<org.eventb.core.poSequent name="si_green/inv2_5/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp\/"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="red=red∨green=red" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#D"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#C"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#D"/>
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#si_green\/inv2_5\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD4"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD4"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="si_green/inv2_7/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp1"/>
+<org.eventb.core.poSequent name="si_green/inv2_7/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp\/"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0∈{0,1}" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#J"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#C"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#J"/>
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#si_green\/inv2_7\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD6"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD6"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="si_green/inv2_8/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp1"/>
+<org.eventb.core.poSequent name="si_green/inv2_8/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp\/"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="red=red⇒pass_cont=1" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#L"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#C"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#L"/>
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#si_green\/inv2_8\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD7"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD7"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="si_green/inv2_9/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp1"/>
+<org.eventb.core.poSequent name="si_green/inv2_9/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp\/"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="green=red⇒0=1" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#M"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#C"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#M"/>
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#si_green\/inv2_9\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD8"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\||org.eventb.core.poPredicate#PRD8"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="si_green/inv2_deadlock/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp1"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="(red=green∧a+b+1&lt;d)∨(red=green∧a+b+1=d)∨(green=green∧b≠1)∨(green=green∧b=1)∨(red=red∧c=0∧a+b&lt;d∧0=1)∨(green=red∧a=0∧b&gt;0∧pass_cont=1)∨0&lt;c∨0&lt;a" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#N"/>
-<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#C"/>
-<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#N"/>
-<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#si_green\/inv2_deadlock\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD9"/>
-</org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="si_green/inv2_trd_exc_si/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp1"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="green=green⇔¬green=red" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#O"/>
-<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#C"/>
-<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#O"/>
-<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#si_green\/inv2_trd_exc_si\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD10"/>
-</org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="si_green/inv2_trd_exc_sc/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp1"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="red=green⇔¬red=red" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#P"/>
-<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#C"/>
-<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#P"/>
-<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#si_green\/inv2_trd_exc_sc\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD11"/>
-</org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="si_green/VAR" org.eventb.core.accurate="true" org.eventb.core.poDesc="Variant of event" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp1"/>
+<org.eventb.core.poSequent name="si_green/VAR" org.eventb.core.accurate="true" org.eventb.core.poDesc="Variant of event" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp\/"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="pass_cont+0&lt;pass_cont+pass_ilha" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variant#K"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variant#K"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#C"/>
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#si_green\/VAR|org.eventb.core.poPredicateSet#SEQHYP"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="si_green/NAT" org.eventb.core.accurate="true" org.eventb.core.poDesc="Natural number variant of event" org.eventb.core.poStamp="44">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp1"/>
+<org.eventb.core.poSequent name="si_green/NAT" org.eventb.core.accurate="true" org.eventb.core.poDesc="Natural number variant of event" org.eventb.core.poStamp="47">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC_semaforp\/"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="pass_cont+pass_ilha∈ℕ" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variant#K"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.variant#K"/>
 <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#C"/>
 <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poSequent#si_green\/NAT|org.eventb.core.poPredicateSet#SEQHYP"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poPredicateSet name="EVTIDENTC_semaforp1" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="EVTIDENTC_semaforp/" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="47">
 <org.eventb.core.poIdentifier name="sc'" org.eventb.core.type="COLOR"/>
 <org.eventb.core.poIdentifier name="pass_ilha'" org.eventb.core.type="ℤ"/>
 <org.eventb.core.poIdentifier name="si'" org.eventb.core.type="COLOR"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPC_semaforp1" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTIDENTC_semaforp1" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="EVTALLHYPC_semaforp/" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTIDENTC_semaforp\/" org.eventb.core.poStamp="47">
 <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="si=red" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#C|org.eventb.core.guard#'"/>
 <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="a=0" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#C|org.eventb.core.guard#("/>
 <org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="b&gt;0" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#C|org.eventb.core.guard#)"/>
 <org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="pass_cont=1" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#C|org.eventb.core.guard#,"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="44">
+<org.eventb.core.poPredicateSet name="HYPC_semaforo|" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
 <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="si∈COLOR" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#."/>
 <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="sc∈COLOR" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#\/"/>
 <org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="sc=green⇒c=0∧a+b&lt;d" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#0"/>
@@ -707,8 +566,8 @@
 <org.eventb.core.poPredicate name="PRD6" org.eventb.core.predicate="pass_ilha∈{0,1}" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#J"/>
 <org.eventb.core.poPredicate name="PRD7" org.eventb.core.predicate="sc=red⇒pass_cont=1" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#L"/>
 <org.eventb.core.poPredicate name="PRD8" org.eventb.core.predicate="si=red⇒pass_ilha=1" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#M"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#HYPC_semaforo\|" org.eventb.core.poStamp="47">
 <org.eventb.core.poPredicate name="PRD9" org.eventb.core.predicate="(sc=green∧a+b+1&lt;d)∨(sc=green∧a+b+1=d)∨(si=green∧b≠1)∨(si=green∧b=1)∨(sc=red∧c=0∧a+b&lt;d∧pass_ilha=1)∨(si=red∧a=0∧b&gt;0∧pass_cont=1)∨0&lt;c∨0&lt;a" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#N"/>
-<org.eventb.core.poPredicate name="PRD10" org.eventb.core.predicate="si=green⇔¬si=red" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#O"/>
-<org.eventb.core.poPredicate name="PRD11" org.eventb.core.predicate="sc=green⇔¬sc=red" org.eventb.core.source="/Carros_dois_refinamentos/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.invariant#P"/>
 </org.eventb.core.poPredicateSet>
 </org.eventb.core.poFile>

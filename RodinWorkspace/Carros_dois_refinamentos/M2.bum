@@ -82,7 +82,5 @@
 <org.eventb.core.variant name="K" org.eventb.core.expression="pass_cont+pass_ilha"/>
 <org.eventb.core.invariant name="L" org.eventb.core.label="inv2_8" org.eventb.core.predicate="sc=red⇒pass_cont=1"/>
 <org.eventb.core.invariant name="M" org.eventb.core.label="inv2_9" org.eventb.core.predicate="si=red⇒pass_ilha=1"/>
-<org.eventb.core.invariant name="N" org.eventb.core.label="inv2_deadlock" org.eventb.core.predicate="(sc=green ∧ a+b+1&lt;d) ∨&#10;(sc=green ∧ a+b+1=d) ∨&#10;(si=green ∧ b≠1) ∨&#10;(si=green ∧ b=1) ∨&#10;(sc=red ∧ c=0 ∧ a+b&lt;d ∧ pass_ilha=1) ∨&#10;(si=red ∧ a=0 ∧ b&gt;0 ∧ pass_cont=1) ∨&#10;0&lt;c ∨&#10;0&lt;a"/>
-<org.eventb.core.invariant name="O" org.eventb.core.label="inv2_trd_exc_si" org.eventb.core.predicate="si=green ⇔ ¬ (si = red)"/>
-<org.eventb.core.invariant name="P" org.eventb.core.label="inv2_trd_exc_sc" org.eventb.core.predicate="sc=green ⇔ ¬ (sc = red)"/>
+<org.eventb.core.invariant name="N" org.eventb.core.label="inv2_deadlock" org.eventb.core.predicate="(sc=green ∧ a+b+1&lt;d) ∨&#10;(sc=green ∧ a+b+1=d) ∨&#10;(si=green ∧ b≠1) ∨&#10;(si=green ∧ b=1) ∨&#10;(sc=red ∧ c=0 ∧ a+b&lt;d ∧ pass_ilha=1) ∨&#10;(si=red ∧ a=0 ∧ b&gt;0 ∧ pass_cont=1) ∨&#10;0&lt;c ∨&#10;0&lt;a" org.eventb.core.theorem="true"/>
 </org.eventb.core.machineFile>
