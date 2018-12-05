@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd" version="3">
+<org.eventb.core.carrierSet name="'" org.eventb.core.identifier="SENSOR"/>
+<org.eventb.core.constant name="(" org.eventb.core.identifier="on"/>
+<org.eventb.core.constant name=")" org.eventb.core.identifier="off"/>
+<org.eventb.core.axiom name="*" org.eventb.core.label="axm3_1" org.eventb.core.predicate="SENSOR={on, off}"/>
+<org.eventb.core.axiom name="+" org.eventb.core.label="axm3_2" org.eventb.core.predicate="on ≠ off"/>
+</org.eventb.core.contextFile>

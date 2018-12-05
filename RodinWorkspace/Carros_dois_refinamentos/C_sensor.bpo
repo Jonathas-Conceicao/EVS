@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="3">
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="2">
+<org.eventb.core.poIdentifier name="SENSOR" org.eventb.core.type="ℙ(SENSOR)"/>
+<org.eventb.core.poIdentifier name="off" org.eventb.core.type="SENSOR"/>
+<org.eventb.core.poIdentifier name="on" org.eventb.core.type="SENSOR"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/Carros_dois_refinamentos/C_sensor.bpo|org.eventb.core.poFile#C_sensor|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="3">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="SENSOR={on,off}" org.eventb.core.source="/Carros_dois_refinamentos/C_sensor.buc|org.eventb.core.contextFile#C_sensor|org.eventb.core.axiom#*"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="on≠off" org.eventb.core.source="/Carros_dois_refinamentos/C_sensor.buc|org.eventb.core.contextFile#C_sensor|org.eventb.core.axiom#+"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

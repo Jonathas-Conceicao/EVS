@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.prFile version="1">
+<org.eventb.core.prProof name="INITIALISATION/inv3_ta/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p5">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p2"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p4"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p5" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="0∈ℕ"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="¬green=red">
+<org.eventb.core.prIdent name="COLOR" org.eventb.core.type="ℙ(COLOR)"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="COLOR"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="COLOR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="on≠off">
+<org.eventb.core.prIdent name="SENSOR" org.eventb.core.type="ℙ(SENSOR)"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="SENSOR"/>
+<org.eventb.core.prIdent name="on" org.eventb.core.type="SENSOR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="green≠red">
+<org.eventb.core.prIdent name="COLOR" org.eventb.core.type="ℙ(COLOR)"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="COLOR"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="COLOR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="¬on=off">
+<org.eventb.core.prIdent name="SENSOR" org.eventb.core.type="ℙ(SENSOR)"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="SENSOR"/>
+<org.eventb.core.prIdent name="on" org.eventb.core.type="SENSOR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="INITIALISATION/inv3_tb/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p5">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p2"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p4"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p5" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="0∈ℕ"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="¬green=red">
+<org.eventb.core.prIdent name="COLOR" org.eventb.core.type="ℙ(COLOR)"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="COLOR"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="COLOR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="on≠off">
+<org.eventb.core.prIdent name="SENSOR" org.eventb.core.type="ℙ(SENSOR)"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="SENSOR"/>
+<org.eventb.core.prIdent name="on" org.eventb.core.type="SENSOR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="green≠red">
+<org.eventb.core.prIdent name="COLOR" org.eventb.core.type="ℙ(COLOR)"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="COLOR"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="COLOR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="¬on=off">
+<org.eventb.core.prIdent name="SENSOR" org.eventb.core.type="ℙ(SENSOR)"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="SENSOR"/>
+<org.eventb.core.prIdent name="on" org.eventb.core.type="SENSOR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="INITIALISATION/inv3_tc/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p5">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p2"/>
+<org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p4"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p5" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="0∈ℕ"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="¬green=red">
+<org.eventb.core.prIdent name="COLOR" org.eventb.core.type="ℙ(COLOR)"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="COLOR"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="COLOR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="on≠off">
+<org.eventb.core.prIdent name="SENSOR" org.eventb.core.type="ℙ(SENSOR)"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="SENSOR"/>
+<org.eventb.core.prIdent name="on" org.eventb.core.type="SENSOR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="green≠red">
+<org.eventb.core.prIdent name="COLOR" org.eventb.core.type="ℙ(COLOR)"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="COLOR"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="COLOR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="¬on=off">
+<org.eventb.core.prIdent name="SENSOR" org.eventb.core.type="ℙ(SENSOR)"/>
+<org.eventb.core.prIdent name="off" org.eventb.core.type="SENSOR"/>
+<org.eventb.core.prIdent name="on" org.eventb.core.type="SENSOR"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+</org.eventb.core.prFile>
